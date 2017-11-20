@@ -1,0 +1,73 @@
+#single-top metadatacard
+#Note: lines starting with # are commented
+#-----------------------------------------
+
+HistoDirectory /afs/cern.ch/work/a/adeiorio/CMSSW_8_0_26_patch1/src/Analysis/NAAnaFW/bin/Plot/fit
+
+#OutputDirectory test
+
+Categories muon_2j1t_central muon_2j1t_forward muon_3j1t_central muon_3j1t_forward muon_3j2t electron_2j1t_central electron_2j1t_forward electron_3j1t_central electron_3j1t_forward electron_3j2t
+CategoryFiles muon muon muon muon muon electron electron electron electron electron 
+RateParamCategories 
+
+#Name of the histograms in the file
+VariableNames h1D_2j1t_cr_3838 h1D_2j1t_sr_3838 h1D_3j1t_cr_3838 h1D_3j1t_sr_3838 h_3j2t_BDT_ST_vs_TT_3j2t h1D_2j1t_cr_3838 h1D_2j1t_sr_3838 h1D_3j1t_cr_3838 h1D_3j1t_sr_3838 h_3j2t_BDT_ST_vs_TT_3j2t_E
+RooRealVar BDT
+BinCut 0 0 0 0 0 0 0 0 0 0 
+
+#Rate parameters: fitted with flat prior. The first is the parameter name, followed by pairings of category physicsProcess making use of the same parameter
+
+#Using the same parameter for tW and ttbar for now:
+
+RateParam WJets_ muon_2j1t_central WJets muon_2j1t_forward WJets muon_3j1t_central WJets muon_3j1t_forward WJets electron_2j1t_central WJets electron_2j1t_forward WJets electron_3j1t_central WJets electron_3j1t_forward WJets 
+
+RateParam TT_ muon_2j1t_central TT muon_2j1t_central ST_tW muon_2j1t_forward TT muon_2j1t_forward ST_tW muon_3j1t_central TT muon_3j1t_central ST_tW muon_3j1t_forward TT muon_3j1t_forward ST_tW muon_3j2t TT electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
+
+#RateParam ST_ muon_2j1t_central ST_tch muon_2j1t_forward ST_tch muon_3j1t_central ST_tch muon_3j1t_forward ST_tch muon_3j2t ST_tch electron_2j1t_central ST_tch electron_2j1t_forward ST_tch electron_3j1t_central ST_tch electron_3j1t_forward ST_tch electron_3j2t ST_tch
+
+RateParam ST_sd muon_2j1t_central ST_tch_sd muon_2j1t_forward ST_tch_sd muon_3j1t_central ST_tch_sd muon_3j1t_forward ST_tch_sd muon_3j2t ST_tch_sd electron_2j1t_central ST_tch_sd electron_2j1t_forward ST_tch_sd electron_3j1t_central ST_tch_sd electron_3j1t_forward ST_tch_sd electron_3j2t ST_tch_sd
+
+RateParam QCD_2j1t_sr_mu muon_2j1t_forward DDQCD
+
+RateParam QCD_2j1t_sr_ele electron_2j1t_forward DDQCD 
+
+#RateParam ST_tch_muon muon_2j1t ST_tch muon_2j1t ST_sch
+#RateParam TT_muon muon_2j1t_central TT muon_2j1t_central ST_tW muon_2j1t_forward TT muon_2j1t_forward ST_tW 
+#RateParam TT_muon_3j muon_3j1t_central TT muon_3j1t_central ST_tW muon_3j1t_forward TT muon_3j1t_forward ST_tW muon_3j2t TT 
+
+BackgroundSample TT ttbar
+BackgroundSample ST_sch single top s-channel
+BackgroundSample ST_tch_sd single top t-channel_sd
+BackgroundSample ST_tW  single top tW
+BackgroundSample DYJets Drell-Yan
+BackgroundSample WJets W + jets
+BackgroundSample VV diboson
+BackgroundSample DDQCD QCD
+
+SignalSample ST_tch single top t-channel
+#SignalSample TT_sd ttbar_sd
+
+#In the above configuration: all channels are fitted simultaneously, but the QCD is fitted separately for each channel.
+#Nota bene 1: it might make sense to separate the WJets in the different b-jet multiplicity, this is just an example where only light and heavy flavored jets are separated. Should be done properly by changing according to heavy flavor components (light, b,c-jets etc).
+#Nota bene 2: minor backgrounds not included as rateparam in this configuration (i.e. VV,ST_sch, DYJets) will not be fitted.
+
+# ----------------------------------------------------------------------------------------------------------------------------------------
+
+LumiUncertainty 0.027
+
+#NormSystematics taken only for normalisation. The code will automatically neglect the shape and take the normalisation from the histograms up/down
+#Systematics taken in normalisation + shape from the histograms
+
+NormSystematics btag mistag lep pu 
+Systematics jes pdf_total q2TT q2ST_tch q2WJets q2ST_tch_sd
+#
+#
+
+#NormSystematics q2VV QCD_xsec
+
+#Systematics WHF ZHF
+#Systematics WQCDRen WQCDFac ZQCDRen ZQCDFac WEWK ZEWK
+#Systematics pdf_total
+#Systematics symjes 
+#Systematics topPtWeight 
+

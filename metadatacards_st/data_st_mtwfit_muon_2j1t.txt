@@ -1,0 +1,64 @@
+#single-top metadatacard
+#Note: lines starting with # are commented
+#-----------------------------------------
+
+HistoDirectory /afs/cern.ch/work/w/wajid/NapoliFW/CMSSW_8_0_20/src/Analysis/NAAnaFW/python/MakePlot/output/muon/histos_lin/ 
+
+
+#OutputDirectory test
+
+Categories muon_2j1t 
+CategoryFiles muon 
+RateParamCategories 
+
+#Name of the histograms in the file
+VariableNames h_2j1t_mtw 
+RooRealVar mtw
+BinCut 0 
+
+#Rate parameters: fitted with flat prior. The first is the parameter name, followed by pairings of
+# category physicsProcess
+# making use of the same parameter
+
+RateParam WJets_light_muon muon_2j1t WJets muon_2j1t DYJets muon_2j1t VV
+
+
+#Using the same parameter for tW and ttbar for now:
+RateParam TT_muon muon_2j1t ST_tW muon_2j1t TT
+
+RateParam ST_tch_muon muon_2j1t ST_tch muon_2j1t ST_sch
+
+RateParam QCD_muon_2j1t muon_2j1t DDQCD 
+
+BackgroundSample TT ttbar
+BackgroundSample ST_tch single top t-channel
+BackgroundSample ST_sch single top s-channel
+BackgroundSample ST_tW  single top tW
+BackgroundSample DYJets Drell-Yan
+BackgroundSample WJets W + jets
+BackgroundSample VV diboson
+
+SignalSample DDQCD QCD
+
+#In the above configuration: all channels are fitted simultaneously, but the QCD is fitted separately for each channel.
+#Nota bene 1: it might make sense to separate the WJets in the different b-jet multiplicity, this is just an example where only light and heavy flavored jets are separated. Should be done properly by changing according to heavy flavor components (light, b,c-jets etc).
+#Nota bene 2: minor backgrounds not included as rateparam in this configuration (i.e. VV,ST_sch, DYJets) will not be fitted.
+
+# ----------------------------------------------------------------------------------------------------------------------------------------
+
+
+LumiUncertainty 0.027
+
+#Systematics taken only for normalisation. The code will automatically neglect the shape and take the normalisation from the histograms up/down
+#NormSystematics btag mistag lep pu
+
+#NormSystematics q2VV QCD_xsec
+
+#Systematics taken in normalisation + shape from the histograms
+#Systematics WHF ZHF
+#Systematics WQCDRen WQCDFac ZQCDRen ZQCDFac WEWK ZEWK
+#Systematics pdf_total
+#Systematics symjes 
+#Systematics   q2TT 
+#Systematics topPtWeight 
+
