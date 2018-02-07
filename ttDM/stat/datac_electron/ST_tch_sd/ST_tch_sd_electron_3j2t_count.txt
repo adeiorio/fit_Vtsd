@@ -1,0 +1,25 @@
+>>> datacard for ST_tch_sd electron_3j2t, count
+
+imax 1 number of channels (electron_2j1t_central, electron_2j1t_forward, electron_3j1t_central, electron_3j1t_forward, electron_3j2t)
+jmax 7 number of backgrounds (TT, ST_tch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 11 number of nuisance parameters (lumi, jes, q2ST_tch, q2WJets, q2TT, q2ST_tch_sd, btag, mistag, lepE, pu, pdf_total)
+---------------------
+bin	electron_3j2t
+observation	53536
+---------------------
+bin	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t
+process	ST_tch_sd	TT	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7
+rate	0.1236	4.848e+04	3149	1411	622.8	783.5	72.79	1
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+jes	lnN	1.009	1.013	1.026	1.007	1.035	1.026	1.028	1
+q2ST_tch	lnN	1	1	1.005	1	1	1	1	1
+q2WJets	lnN	1	1	1	1	1	1.035	1	1
+q2TT	lnN	1	1.114	1	1	1	1	1	1
+q2ST_tch_sd	lnN	1.007	1	1	1	1	1	1	1
+btag	lnN	1.022	1.033	1.034	1.038	1.033	1.038	1.036	188.7
+mistag	lnN	1.398	1.002	1.001	1.003	1.005	1.004	1.005	1
+lepE	lnN	1	1	1	1	1	1	1	1
+pu	lnN	1.005	1.009	1.01	1.006	1.018	1.011	1.01	1
+pdf_total	lnN	1.034	1.023	1.028	1	1.027	1.033	1.031	1

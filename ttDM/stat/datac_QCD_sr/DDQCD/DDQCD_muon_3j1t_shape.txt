@@ -1,0 +1,40 @@
+>>> datacard for DDQCD muon_3j1t, shape
+
+imax 1 number of channels (muon_3j1t)
+jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, ST_tch_sd)
+kmax 15 number of nuisance parameters (lumi, jes, q2ST_tch, q2WJets, q2TT, q2ST_tch_sd, psq2TT, psq2ST_tch, hdampTT, hdampST_tch, btag, pdf_total, mistag, lepMu, pu)
+---------------------
+shapes	*	*	../ws/workspace.root	w:$PROCESS_$CHANNEL	w:$PROCESS_$CHANNEL_$SYSTEMATIC
+shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
+---------------------
+bin	muon_3j1t
+observation	91256
+---------------------
+bin	muon_3j1t	muon_3j1t	muon_3j1t	muon_3j1t	muon_3j1t	muon_3j1t	muon_3j1t	muon_3j1t	muon_3j1t
+process	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	ST_tch_sd
+process	0	1	2	3	4	5	6	7	8
+rate	3893	6.008e+04	652.5	1.181e+04	4044	1885	8611	265.3	12.07
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+btag	lnN	1.001	1.012	1.01	1.008	1.015	1.019	1.026	1.024	1.017
+pdf_total	lnN	1.003	1.036	1	1.037	1	1.062	1.044	1.036	1.01
+mistag	lnN	1	1	1	1	1.001	1.029	1.024	1.018	1
+lepMu	lnN	1	1.014	1.015	1.015	1.015	1.014	1.014	1.016	1.014
+pu	lnN	1	1.002	1.018	1.002	1.007	1.012	1.021	1.012	1.003
+jes	shape	1	1	1	1	1	1	1	1	1
+q2ST_tch	shape	1	1	1	1	1	1	1	1	1
+q2WJets	shape	1	1	1	1	1	1	1	1	1
+q2TT	shape	1	1	1	1	1	1	1	1	1
+q2ST_tch_sd	shape	1	1	1	1	1	1	1	1	1
+psq2TT	shape	1	1	1	1	1	1	1	1	1
+psq2ST_tch	shape	1	1	1	1	1	1	1	1	1
+hdampTT	shape	1	1	1	1	1	1	1	1	1
+hdampST_tch	shape	1	1	1	1	1	1	1	1	1
+muon	rateParam	muon_3j1t	TT	1
+muon	rateParam	muon_3j1t	ST_tW	1
+muon	rateParam	muon_3j1t	ST_sch	1
+muon	rateParam	muon_3j1t	ST_tch	1
+muon	rateParam	muon_3j1t	DYJets	1
+muon	rateParam	muon_3j1t	WJets	1
+muon	rateParam	muon_3j1t	VV	1
+muon	rateParam	muon_3j1t	ST_tch_sd	1

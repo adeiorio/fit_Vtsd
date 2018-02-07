@@ -1,0 +1,22 @@
+>>> datacard for TT muon_2j1t_forward, count
+
+imax 1 number of channels (muon_2j1t_central, muon_2j1t_forward, muon_3j1t_central, muon_3j1t_forward, muon_3j2t)
+jmax 7 number of backgrounds (ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 8 number of nuisance parameters (lumi, jes, pdf_total, q2TT, btag, mistag, lep, pu)
+---------------------
+bin	muon_2j1t_forward
+observation	50274
+---------------------
+bin	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward
+process	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7
+rate	1.727e+04	748.4	1.819e+04	1541	1785	8388	167.9	7191
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+jes	lnN	1.078	1.019	1.018	1.06	1.016	1.025	1.045	1.036
+pdf_total	lnN	1.04	1.029	1.039	1	1.041	1.047	1.038	1
+q2TT	lnN	1.135	1	1	1	1	1	1	1
+btag	lnN	1.016	1.016	1.016	1.017	1.02	1.03	1.027	1.017
+mistag	lnN	1	1	1	1.001	1.014	1.032	1.023	1.012
+lep	lnN	1.006	1.008	1.007	1.006	1.007	1.008	1.008	1.011
+pu	lnN	1	1.003	1.004	1.005	1.027	1.017	1.002	1.03

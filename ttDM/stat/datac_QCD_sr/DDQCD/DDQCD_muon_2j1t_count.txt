@@ -1,0 +1,29 @@
+>>> datacard for DDQCD muon_2j1t, count
+
+imax 1 number of channels (muon_2j1t)
+jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, ST_tch_sd)
+kmax 15 number of nuisance parameters (lumi, jes, q2ST_tch, q2WJets, q2TT, q2ST_tch_sd, psq2TT, psq2ST_tch, hdampTT, hdampST_tch, btag, pdf_total, mistag, lepMu, pu)
+---------------------
+bin	muon_2j1t
+observation	82621
+---------------------
+bin	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t
+process	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	ST_tch_sd
+process	0	1	2	3	4	5	6	7	8
+rate	1.715e+04	2.145e+04	993.4	2.544e+04	2049	3198	1.21e+04	221.8	4.56
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+jes	lnN	1.001	1.049	1.042	1.042	1.053	1.035	1.066	1.056	1.063
+q2ST_tch	lnN	1	1	1	1.005	1	1	1	1	1
+q2WJets	lnN	1	1	1	1	1	1	1.05	1	1
+q2TT	lnN	1	1.136	1	1	1	1	1	1	1
+q2ST_tch_sd	lnN	1	1	1	1	1	1	1	1	1.007
+psq2TT	lnN	1	1.059	1	1	1	1	1	1	1
+psq2ST_tch	lnN	1	1	1	1.098	1	1	1	1	1
+hdampTT	lnN	1	1.051	1	1	1	1	1	1	1
+hdampST_tch	lnN	1	1	1	1.031	1	1	1	1	1
+btag	lnN	1.001	1.016	1.016	1.016	1.017	1.018	1.032	1.025	1.017
+pdf_total	lnN	1.001	1.041	1	1.036	1	1.04	1.048	1.046	1.01
+mistag	lnN	1	1	1	1	1.001	1.018	1.033	1.02	1.005
+lepMu	lnN	1	1.014	1.015	1.016	1.015	1.018	1.015	1.015	1.014
+pu	lnN	1	1.001	1.007	1.004	1.007	1.025	1.023	1.005	1.002

@@ -1,0 +1,15 @@
+>>> datacard for QCDMuEPt20toInf muon_2j1t, count
+
+imax 1 number of channels (muon_2j1t)
+jmax 5 number of backgrounds (TT, ST_tch, ST_tW, DYJets, WJets)
+kmax 1 number of nuisance parameters (lumi)
+---------------------
+bin	muon_2j1t
+observation	176710
+---------------------
+bin	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t
+process	QCDMuEPt20toInf	TT	ST_tch	ST_tW	DYJets	WJets
+process	0	1	2	3	4	5
+rate	1.269e+05	7.856e+04	1.887e+04	9883	8360	2.615e+04
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027

@@ -1,0 +1,48 @@
+# ttDM datacard
+
+HistoDirectory histos
+# tagged
+Categories semileptonic semileptonic_CR_TT semileptonic_CR_WJets fullhadronic fullhadronic_CR_TT fullhadronic_CR_QCD fullhadronic_CR_ZJets fullhadronic_CR_WJets
+CategoryFiles semileptonic semileptonic semileptonic fullhadronic fullhadronic fullhadronic fullhadronic fullhadronic
+
+VariableNames metFinal metFinal_2lep metFinal_met_0btag metFinal metFinal_SR_1lep_mt metFinal_outtop metFinal_CR5 metFinal_CR6
+BinCut 9 9 16 16 16 16 16 16
+
+# untagged
+#Categories semileptonic fullhadronic
+#CategoryFiles semileptonic fullhadronic
+#VariableNames metFinal metFinal
+#BinCut 5 5 5 5 5 5
+
+BackgroundSample TT ttbar
+BackgroundSample SingleTop single top
+BackgroundSample DY Drell-Yan
+BackgroundSample ZToNuNu Z -> nu nu
+BackgroundSample WJets W + jets
+BackgroundSample QCD QCD
+
+SignalSample DMtt_ps_Mchi10Mphi10 	t+DM, mchi = 10 GeV, mphi = 10 GeV
+SignalSample DMtt_ps_Mchi10Mphi50 	t+DM, mchi = 10 GeV, mphi = 50 GeV
+SignalSample DMtt_ps_Mchi150Mphi200 	t+DM, mchi = 150 GeV, mphi = 200 GeV
+SignalSample DMtt_ps_Mchi1Mphi100 	t+DM, mchi = 1 GeV, mphi = 100 GeV
+SignalSample DMtt_ps_Mchi1Mphi10 	t+DM, mchi = 1 GeV, mphi = 10 GeV
+SignalSample DMtt_ps_Mchi1Mphi200 	t+DM, mchi = 1 GeV, mphi = 200 GeV
+SignalSample DMtt_ps_Mchi1Mphi20 	t+DM, mchi = 1 GeV, mphi = 20 GeV
+SignalSample DMtt_ps_Mchi1Mphi300 	t+DM, mchi = 1 GeV, mphi = 300 GeV
+SignalSample DMtt_ps_Mchi1Mphi500 	t+DM, mchi = 1 GeV, mphi = 500 GeV
+SignalSample DMtt_ps_Mchi1Mphi50 	t+DM, mchi = 1 GeV, mphi = 50 GeV
+SignalSample DMtt_ps_Mchi500Mphi500 	t+DM, mchi = 500 GeV, mphi = 500 GeV
+SignalSample DMtt_ps_Mchi50Mphi200 	t+DM, mchi = 50 GeV, mphi = 200 GeV
+SignalSample DMtt_ps_Mchi50Mphi300 	t+DM, mchi = 50 GeV, mphi = 300 GeV
+SignalSample DMtt_ps_Mchi50Mphi50 	t+DM, mchi = 50 GeV, mphi = 50 GeV
+
+Systematics jes btag pu
+#Fullhadronic CR
+#ControlRegion fullhadronic SR_1lep_mt TT
+#ControlRegion fullhadronic outtop QCD
+#ControlRegion fullhadronic CR6 WJets
+#ControlRegion fullhadronic CR5 ZJets
+#Semileptonic CR
+#ControlRegion semileptonic 2lep TT
+#ControlRegion semileptonic met_0btag WJets
+

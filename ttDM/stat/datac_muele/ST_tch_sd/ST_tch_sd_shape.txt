@@ -1,0 +1,72 @@
+>>> datacard for ST_tch_sd, shape
+
+imax 10 number of channels (muon_2j1t_central, muon_2j1t_forward, muon_3j1t_central, muon_3j1t_forward, muon_3j2t, electron_2j1t_central, electron_2j1t_forward, electron_3j1t_central, electron_3j1t_forward, electron_3j2t)
+jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 17 number of nuisance parameters (lumi, jes, jer, q2ST_tch, q2WJets, q2TT, q2ST_tch_sd, psq2TT, psq2ST_tch, hdampST_tch, hdampTT, btag, mistag, lepMu, lepE, pu, pdf_total)
+---------------------
+shapes	*	*	../ws/workspace.root	w:$PROCESS_$CHANNEL	w:$PROCESS_$CHANNEL_$SYSTEMATIC
+shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
+---------------------
+bin	muon_2j1t_central	muon_2j1t_forward	muon_3j1t_central	muon_3j1t_forward	muon_3j2t	electron_2j1t_central	electron_2j1t_forward	electron_3j1t_central	electron_3j1t_forward	electron_3j2t
+observation	280783	54373	214340	66159	87767	165101	26517	133956	36137	53536
+---------------------
+bin	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	electron_2j1t_central	electron_2j1t_central	electron_2j1t_central	electron_2j1t_central	electron_2j1t_central	electron_2j1t_central	electron_2j1t_central	electron_2j1t_central	electron_2j1t_central	electron_2j1t_forward	electron_2j1t_forward	electron_2j1t_forward	electron_2j1t_forward	electron_2j1t_forward	electron_2j1t_forward	electron_2j1t_forward	electron_2j1t_forward	electron_2j1t_forward	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t	electron_3j2t
+process	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8	0	1	2	3	4	5	6	7	8
+rate	589.2	1.593e+05	4724	2.329e+04	1.813e+04	7698	4.693e+04	1159	9685	119	1.759e+04	804.3	1.909e+04	1629	1900	9400	181.9	7055	696.1	1.799e+05	1248	6125	1.118e+04	1988	1.393e+04	628.3	2039	180.6	4.686e+04	499.6	8657	3078	1203	6457	193.3	2919	16.03	7.906e+04	791.8	5268	2141	683.1	2083	126.3	688	381.1	9.92e+04	2475	1.343e+04	1.178e+04	6067	2.203e+04	641.6	9404	64.74	9036	235.1	9824	952.9	1297	4455	81.83	591.2	463	1.14e+05	773.7	3803	7777	2020	7347	387.7	1	106.7	2.583e+04	187.4	4788	1824	1096	2746	104.4	1	10.27	4.848e+04	459.1	3149	1411	622.8	783.5	72.79	1
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+btag	lnN	1.001	1.01	1.004	1.012	1.014	1.018	1.026	1.025	1.015	1	1.016	1.016	1.016	1.017	1.019	1.031	1.027	1.017	1	1.005	1.003	1.005	1.012	1.017	1.024	1.025	1.013	1.001	1.011	1.01	1.008	1.015	1.017	1.026	1.025	1.018	1.034	1.033	1.034	1.033	1.037	1.033	1.039	1.039	1.037	1.001	1.01	1.004	1.012	1.014	1.016	1.028	1.026	1.219	1	1.016	1.016	1.016	1.016	1.025	1.036	1.027	1.873	1	1.005	1.002	1.005	1.011	1.013	1.023	1.026	1	1.001	1.011	1.008	1.007	1.014	1.021	1.031	1.022	1	1.033	1.033	1.035	1.034	1.038	1.033	1.038	1.036	188.7
+mistag	lnN	1.237	1	1	1	1	1.022	1.021	1.015	1.007	1.243	1	1	1	1.001	1.014	1.037	1.023	1.013	1.231	1	1	1	1	1.02	1.024	1.016	1	1.237	1	1	1	1	1.042	1.024	1.018	1.008	1.343	1.002	1.001	1.001	1.004	1.019	1.016	1.009	1.001	1.236	1	1	1	1	1.008	1.019	1.009	1.054	1.244	1	1.001	1	1	1.002	1.025	1.011	1.219	1.231	1	1	1	1	1.01	1.02	1.016	1	1.237	1	1	1	1	1.024	1.021	1.014	1	1.345	1.002	1.001	1.001	1.003	1.005	1.004	1.005	1
+lepMu	lnN	1.015	1.014	1.016	1.016	1.015	1.017	1.016	1.015	1.019	1.016	1.014	1.015	1.016	1.014	1.017	1.014	1.016	1.02	1.014	1.014	1.016	1.015	1.015	1.017	1.015	1.016	1.016	1.014	1.014	1.015	1.015	1.015	1.014	1.013	1.016	1.021	1.014	1.015	1.017	1.015	1.015	1.01	1.017	1.016	1.019	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+lepE	lnN	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+pu	lnN	1.004	1.004	1.003	1.006	1.005	1.004	1.001	1.004	1.027	1.003	1.001	1.003	1.005	1.006	1.033	1.026	1.001	1.038	1.003	1.003	1.003	1.003	1.007	1.016	1.01	1.007	1.006	1.003	1.002	1.006	1.002	1.005	1.043	1.016	1.007	1.065	1.004	1.007	1.011	1.006	1.005	1.049	1.012	1.003	1.043	1.007	1.007	1.005	1.008	1.006	1.005	1.001	1.012	1.096	1.006	1.004	1.001	1.007	1.002	1.006	1.003	1.004	1.152	1.006	1.006	1.009	1.007	1.007	1.016	1.009	1.001	1	1	1	1.002	1.001	1.004	1.094	1.04	1.002	1	1.007	1.009	1.001	1.01	1.006	1.018	1.011	1.01	1
+pdf_total	lnN	1.024	1.023	1	1.028	1	1.026	1.033	1.031	1	1.036	1.04	1	1.035	1	1.042	1.048	1.047	1	1.023	1.023	1	1.026	1	1.035	1.034	1.031	1	1.033	1.035	1	1.035	1	1.056	1.043	1.029	1	1.024	1.023	1	1.029	1	1.041	1.031	1.034	1	1.024	1.023	1	1.027	1	1.026	1.034	1.03	1	1.034	1.035	1	1.033	1	1.03	1.049	1.037	1	1.023	1.023	1	1.025	1	1.025	1.033	1.03	1	1.031	1.031	1	1.034	1	1.023	1.045	1.041	1	1.024	1.023	1	1.028	1	1.027	1.033	1.031	1
+jes	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jer	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2ST_tch	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2WJets	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2TT	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2ST_tch_sd	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+psq2TT	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+psq2ST_tch	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+hdampST_tch	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+hdampTT	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+QCD_2j1t_sr_ele	rateParam	electron_2j1t_forward	DDQCD	1
+QCD_2j1t_sr_mu	rateParam	muon_2j1t_forward	DDQCD	1
+ST_	rateParam	muon_2j1t_central	ST_tch	1
+ST_	rateParam	muon_2j1t_forward	ST_tch	1
+ST_	rateParam	muon_3j1t_central	ST_tch	1
+ST_	rateParam	muon_3j1t_forward	ST_tch	1
+ST_	rateParam	muon_3j2t	ST_tch	1
+ST_	rateParam	electron_2j1t_central	ST_tch	1
+ST_	rateParam	electron_2j1t_forward	ST_tch	1
+ST_	rateParam	electron_3j1t_central	ST_tch	1
+ST_	rateParam	electron_3j1t_forward	ST_tch	1
+ST_	rateParam	electron_3j2t	ST_tch	1
+TT_	rateParam	muon_2j1t_central	TT	1
+TT_	rateParam	muon_2j1t_central	ST_tW	1
+TT_	rateParam	muon_2j1t_forward	TT	1
+TT_	rateParam	muon_2j1t_forward	ST_tW	1
+TT_	rateParam	muon_3j1t_central	TT	1
+TT_	rateParam	muon_3j1t_central	ST_tW	1
+TT_	rateParam	muon_3j1t_forward	TT	1
+TT_	rateParam	muon_3j1t_forward	ST_tW	1
+TT_	rateParam	muon_3j2t	TT	1
+TT_	rateParam	electron_2j1t_central	TT	1
+TT_	rateParam	electron_2j1t_central	ST_tW	1
+TT_	rateParam	electron_2j1t_forward	TT	1
+TT_	rateParam	electron_2j1t_forward	ST_tW	1
+TT_	rateParam	electron_3j1t_central	TT	1
+TT_	rateParam	electron_3j1t_central	ST_tW	1
+TT_	rateParam	electron_3j1t_forward	TT	1
+TT_	rateParam	electron_3j1t_forward	ST_tW	1
+TT_	rateParam	electron_3j2t	TT	1
+WJets_	rateParam	muon_2j1t_central	WJets	1
+WJets_	rateParam	muon_2j1t_forward	WJets	1
+WJets_	rateParam	muon_3j1t_central	WJets	1
+WJets_	rateParam	muon_3j1t_forward	WJets	1
+WJets_	rateParam	electron_2j1t_central	WJets	1
+WJets_	rateParam	electron_2j1t_forward	WJets	1
+WJets_	rateParam	electron_3j1t_central	WJets	1
+WJets_	rateParam	electron_3j1t_forward	WJets	1

@@ -1,0 +1,47 @@
+/BuildFile.xml/1.5/Sun Feb 21 08:57:39 2016//
+/MstarVSmCHI_limit.C/1.5/Mon Jun 29 12:46:04 2015//
+/README/1.15/Wed Dec 16 10:41:19 2015//
+/READMEENGL/1.2/Mon Nov 28 17:54:48 2016//
+/batchlimit.py/1.6/Thu Apr 21 08:56:08 2016//
+/brazil_limit.C/1.9/Thu Apr 21 08:56:08 2016//
+/brazil_limit_fullhadronic.C/1.1/Tue Apr 14 09:35:01 2015//
+/brazil_limit_semileptonic.C/1.1/Tue Apr 14 09:35:01 2015//
+/brazil_signif.C/1.5/Wed Sep 23 13:00:32 2015//
+/brazil_signif_fullhadronic.C/1.1/Tue Apr 14 09:35:02 2015//
+/brazil_signif_semileptonic.C/1.1/Tue Apr 14 09:35:02 2015//
+/combine_ttDM.py/1.6/Thu Oct 29 13:40:43 2015//
+/combine_ttDM_simpl.py/1.11/Thu Mar 24 10:58:00 2016//
+/combine_ttDM_split.py/1.3/Tue Apr 14 08:54:52 2015//
+/data.txt/1.3/Tue Nov 10 10:22:11 2015//
+/data_norm_ps.txt/1.2/Tue Dec  8 13:06:19 2015//
+/data_norm_sc.txt/1.1/Mon Nov 30 10:48:19 2015//
+/data_norm_sc_noSys.txt/1.6/Sun Feb 21 08:57:39 2016//
+/data_sc_blind_MCStat.txt/1.1/Sun Feb 21 08:58:16 2016//
+/data_sc_blind_MCStat_separate_jer_jes.txt/1.1/Fri Apr 15 08:43:37 2016//
+/data_sc_blind_MCStat_symjesjer_param.txt/1.1/Fri Apr 15 08:43:38 2016//
+/data_sc_blind_MCStat_symjesjer_param_fh.txt/1.1/Fri Apr 15 08:43:38 2016//
+/data_sc_blind_MCStat_symjesjer_param_sl.txt/1.1/Fri Apr 15 08:43:39 2016//
+/data_tagged.txt/1.1/Mon Nov  9 14:19:58 2015//
+/data_test_norm.txt/1.1/Sun Feb 21 08:58:16 2016//
+/data_untagged.txt/1.1/Mon Nov  9 14:19:58 2015//
+/exampleQCFit.csh/1.1/Mon Nov 28 17:47:36 2016//
+/getGeneralSetting.py/1.1/Tue Feb 24 21:27:42 2015//
+/getLimit.py/1.5/Wed Apr 22 12:42:06 2015//
+/getLimitData.py/1.2/Fri Apr  8 18:46:31 2016//
+/getSignif.py/1.5/Wed Apr 22 12:42:06 2015//
+/getSignifData.py/1.1/Wed Sep 23 13:00:33 2015//
+/limitsTable.py/1.13/Wed May  4 15:57:53 2016//
+/plotLimits.C/1.1/Tue Dec  8 10:02:24 2015//
+/plotMEThist.C/1.17/Fri Nov  6 10:17:42 2015//
+/plotMEThist_nosplit.C/1.1/Thu Nov  5 13:03:40 2015//
+/plotMEThist_split.C/1.2/Fri Nov  6 10:17:43 2015//
+/plotMEThist_wrap.C/1.5/Wed Nov  4 12:59:51 2015//
+/runBatch.csh/1.4/Fri Apr  8 18:46:31 2016//
+/signifBand.C/1.1/Wed Feb 18 10:08:39 2015//
+/statSys.C/1.1/Fri Jul  3 13:04:40 2015//
+D/bin////
+D/interface////
+D/metadatacards////
+D/metadatacards_st////
+D/src////
+D/test////

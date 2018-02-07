@@ -1,0 +1,22 @@
+>>> datacard for TT, count
+
+imax 5 number of channels (muon_2j1t_central, muon_2j1t_forward, muon_3j1t_central, muon_3j1t_forward, muon_3j2t)
+jmax 7 number of backgrounds (ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 8 number of nuisance parameters (lumi, jes, pdf_total, q2TT, btag, mistag, lep, pu)
+---------------------
+bin	muon_2j1t_central	muon_2j1t_forward	muon_3j1t_central	muon_3j1t_forward	muon_3j2t
+observation	278671	50274	220529	66050	90513
+---------------------
+bin	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t
+process	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7	0	1	2	3	4	5	6	7	0	1	2	3	4	5	6	7	0	1	2	3	4	5	6	7	0	1	2	3	4	5	6	7
+rate	1.595e+05	4638	2.285e+04	1.762e+04	6681	4.545e+04	1115	1.027e+04	1.727e+04	748.4	1.819e+04	1541	1785	8388	167.9	7191	1.834e+05	1248	6126	1.114e+04	1717	1.383e+04	619.5	2502	4.767e+04	494.8	8613	3074	1201	6342	188.7	3387	8.086e+04	795.9	5281	2129	650.6	2058	126.4	766.7
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+jes	lnN	1.061	1.018	1.025	1.036	1.017	1.019	1.028	1.018	1.078	1.019	1.018	1.06	1.016	1.025	1.045	1.036	1.01	1.035	1.018	1.014	1.055	1.031	1.014	1.082	1.047	1.11	1.08	1.081	1.236	1.141	1.094	1.13	1.012	1.028	1.018	1.01	1.078	1.047	1.03	1.047
+pdf_total	lnN	1.023	1.03	1.031	1	1.025	1.033	1.031	1	1.04	1.029	1.039	1	1.041	1.047	1.038	1	1.023	1.031	1.028	1	1.034	1.033	1.031	1	1.035	1.035	1.038	1	1.058	1.043	1.037	1	1.023	1.031	1.032	1	1.041	1.031	1.034	1
+q2TT	lnN	1.117	1	1	1	1	1	1	1	1.135	1	1	1	1	1	1	1	1.119	1	1	1	1	1	1	1	1.135	1	1	1	1	1	1	1	1.117	1	1	1	1	1	1	1
+btag	lnN	1.01	1.004	1.012	1.014	1.018	1.026	1.025	1.015	1.016	1.016	1.016	1.017	1.02	1.03	1.027	1.017	1.005	1.003	1.005	1.011	1.017	1.024	1.025	1.013	1.011	1.01	1.008	1.015	1.016	1.026	1.025	1.018	1.033	1.034	1.033	1.037	1.034	1.039	1.039	1.037
+mistag	lnN	1	1	1	1	1.021	1.02	1.015	1.005	1	1	1	1.001	1.014	1.032	1.023	1.012	1	1	1	1	1.022	1.024	1.015	1	1	1	1	1	1.04	1.023	1.017	1.008	1.002	1.001	1.001	1.004	1.02	1.016	1.009	1.001
+lep	lnN	1.006	1.007	1.007	1.006	1.008	1.007	1.007	1.013	1.006	1.008	1.007	1.006	1.007	1.008	1.008	1.011	1.006	1.007	1.006	1.006	1.009	1.008	1.008	1.01	1.006	1.007	1.007	1.007	1.005	1.007	1.008	1.015	1.006	1.007	1.006	1.006	1.004	1.008	1.007	1.022
+pu	lnN	1.004	1.003	1.006	1.006	1.003	1.002	1.005	1.03	1	1.003	1.004	1.005	1.027	1.017	1.002	1.03	1.003	1.003	1.004	1.007	1.016	1.009	1.006	1.006	1.003	1.006	1.002	1.005	1.04	1.017	1.006	1.094	1.007	1.012	1.006	1.005	1.035	1.008	1.002	1.069

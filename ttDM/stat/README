@@ -1,0 +1,76 @@
+----------------------------------------------------------------------------------------------------------------
+Premessa (Il Combine Tool): 
+
+Il codice per girare l'analisi statistica usa il combine tool del gruppo dell'Higgs.
+E' necessario fare il checkout del pacchetto:
+
+   cd CMSSW_7_2_0/src
+   cmsenv
+   git clone https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit
+   scram b -j 10
+
+Ci sarebbero da fare l'update all'ultima tag, ma non sono sicura che quella riportata nella twiki sia l'ultima.
+Direi cmq che va bene per il momento usare questa.
+----------------------------------------------------------------------------------------------------------------
+
+1. mettere nella directory histos gli istogrammi metFinal
+
+2. girare hadd e sommare tutti quelli del SingleTop, DY e QCD in modo da avere: 
+   # Questo non sara' piu' necessario con la prossima versione del makePlot che fara' il direttamente il merge.
+
+    SingleTop_fullHad.root, SingleTop_semiLep.root
+    QCD_fullHad.root, QCD_semiLep.root
+    DY_fullHad.root, DY_semiLep.root
+
+3.  girare sotto CMSSW_7_2_0 o 7_3_0:
+
+      analyzeSamples -D out data_norm_sc_noSyst.txt
+ 
+    questo produce una serie di datacards *.txt nelle directories out/DMtt_[xxx]/ e i files con i workspaces 
+    nella directory out/ws/:
+
+    workspace_fullhadronic.root, workspace_semileptonic.root
+
+    per le possibili opzioni usare -h o --help.
+
+4. girare:
+
+      python combine_ttDM_simpl.py -D out -M shape
+
+    questo calcola i limiti, gli output sono nelle directories out/DMtt_*, * ( un valore di massa, 
+    con i risultati del calcolo di limite e significativit) . Ci sono files di testo (log)
+    e root tree con i p-values che servono per calcolare la significativita', se si usa l'opzione
+    giusta. Usare -h o --help per avere la lista delle opzioni 
+
+5. per avere la tabella con i limiti:
+  
+     pythone limitsTable -D out -M shape
+
+   formato testuale con -f txt, altrimenti -f tex
+
+
+*** le prossime opzioni non sono più mantenute a vanno aggiornate! ***
+
+*. girare: 
+
+      python getLimitData.py  # estrae dai log le informazioni salienti
+      python getSignifData.py  # estrae dai tree con i p-values le info per la significativita'
+  
+    di nuovo, l'opzione --cat (o -c) seleziona una sola categoria
+
+      root -b -q brazil_limit.C+
+      root -b -q brazil_signif.C+
+
+    questo produce i plot basiliani nella dir. plots
+
+    le macro per produrre i ploy per una sola categoria sono brazil_XX_YY.C, 
+    dove XX = limit, signif e YY = semileptonic, fullhadronic
+
+      python getGeneralSetting.py
+      root -b -q MstarVSmCHI_limit.C+
+
+Summary: 
+
+    tutti i comandi insieme:
+
+      root -b -q plotMEThist_wrap.C; python combine_ttDM.py; rm -f include/*.h; python getLimit.py; python getSignif.py; root -b -q brazil_limit.C++; root -b -q brazil_signif.C++

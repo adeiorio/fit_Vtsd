@@ -1,0 +1,29 @@
+>>> datacard for ST_tch muon_3j1t_central, count
+
+imax 1 number of channels (muon_2j1t_central, muon_2j1t_forward, muon_3j1t_central, muon_3j1t_forward, muon_3j2t)
+jmax 10 number of backgrounds (TT, TT_sd, ST_sch, ST_tch_sd, ST_tch_p_sd, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 15 number of nuisance parameters (lumi, pdf_total, q2WJets, q2TT, q2VV, q2ST_tch, jes, hdampTT, psq2TT, hdampST_tch, psq2ST_tch, btag, mistag, lepMu, pu)
+---------------------
+bin	muon_3j1t_central
+observation	221895
+---------------------
+bin	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central
+process	ST_tch	TT	TT_sd	ST_sch	ST_tch_sd	ST_tch_p_sd	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7	8	9	10
+rate	6665	1.856e+05	675.6	1320	8.208	15.18	1.152e+04	2065	1.434e+04	651.9	1
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+pdf_total	lnN	1.026	1.023	1.023	1	1.007	1.011	1	1.035	1.034	1.031	1.021
+q2WJets	lnN	1	1	1	1	1	1	1	1	1.1	1	1
+q2TT	lnN	1	1.119	1	1	1	1	1	1	1	1	1
+q2VV	lnN	1	1	1	1	1	1	1	1	1	1.065	1
+q2ST_tch	lnN	1.006	1	1	1	1	1	1	1	1	1	1
+jes	lnN	1.015	1.01	1.01	1.035	1.006	1.025	1.016	1.014	1.032	1.017	1.011
+hdampTT	lnN	1	1.057	1	1	1	1	1	1	1	1	1
+psq2TT	lnN	1	1.052	1	1	1	1	1	1	1	1	1
+hdampST_tch	lnN	1.029	1	1	1	1	1	1	1	1	1	1
+psq2ST_tch	lnN	1.102	1	1	1	1	1	1	1	1	1	1
+btag	lnN	1.005	1.005	1	1.003	1.017	1.015	1.012	1.017	1.024	1.024	1.004
+mistag	lnN	1	1	1.231	1	1.001	1	1	1.024	1.024	1.016	1.001
+lepMu	lnN	1.015	1.014	1.014	1.016	1.015	1.016	1.015	1.016	1.015	1.016	1
+pu	lnN	1.003	1.003	1.003	1.001	1.003	1.001	1.007	1.014	1.011	1.007	1.007
