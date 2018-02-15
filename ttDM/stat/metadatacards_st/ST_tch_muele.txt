@@ -19,12 +19,13 @@ BinCut 0 0 0 0 0 0 0 0 0 0
 
 #Using the same parameter for tW and ttbar for now:
 RateParam WJets_ muon_2j1t_central WJets muon_2j1t_forward WJets muon_3j1t_central WJets muon_3j1t_forward WJets electron_2j1t_central WJets electron_2j1t_forward WJets electron_3j1t_central WJets electron_3j1t_forward WJets 
-#RateParam TT_ muon_2j1t_central TT muon_2j1t_central ST_tW muon_2j1t_forward TT muon_2j1t_forward ST_tW muon_3j1t_central TT muon_3j1t_central ST_tW muon_3j1t_forward TT muon_3j1t_forward ST_tW muon_3j2t TT electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
-RateParam ST_ muon_2j1t_central ST_tch muon_2j1t_forward ST_tch muon_3j1t_central ST_tch muon_3j1t_forward ST_tch muon_3j2t ST_tch electron_2j1t_central ST_tch electron_2j1t_forward ST_tch electron_3j1t_central ST_tch electron_3j1t_forward ST_tch electron_3j2t ST_tch
-#RateParam ST_sd muon_2j1t_central ST_tch_sd muon_2j1t_forward ST_tch_sd muon_3j1t_central ST_tch_sd muon_3j1t_forward ST_tch_sd muon_3j2t ST_tch_sd electron_2j1t_central ST_tch_sd electron_2j1t_forward ST_tch_sd electron_3j1t_central ST_tch_sd electron_3j1t_forward ST_tch_sd electron_3j2t ST_tch_sd
+RateParam TT_ muon_2j1t_central TT muon_2j1t_central ST_tW muon_2j1t_forward TT muon_2j1t_forward ST_tW muon_3j1t_central TT muon_3j1t_central ST_tW muon_3j1t_forward TT muon_3j1t_forward ST_tW muon_3j2t TT electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
 RateParam QCD_2j1t_sr_mu muon_2j1t_forward DDQCD
 RateParam QCD_3j1t_sr_mu muon_3j1t_forward DDQCD
 RateParam QCD_2j1t_sr_ele electron_2j1t_forward DDQCD
+
+#RateParam ST_ muon_2j1t_central ST_tch muon_2j1t_forward ST_tch muon_3j1t_central ST_tch muon_3j1t_forward ST_tch muon_3j2t ST_tch electron_2j1t_central ST_tch electron_2j1t_forward ST_tch electron_3j1t_central ST_tch electron_3j1t_forward ST_tch electron_3j2t ST_tch
+#RateParam ST_sd muon_2j1t_central ST_tch_sd muon_2j1t_forward ST_tch_sd muon_3j1t_central ST_tch_sd muon_3j1t_forward ST_tch_sd muon_3j2t ST_tch_sd electron_2j1t_central ST_tch_sd electron_2j1t_forward ST_tch_sd electron_3j1t_central ST_tch_sd electron_3j1t_forward ST_tch_sd electron_3j2t ST_tch_sd
 #RateParam ST_sch_ muon_2j1t_central ST_sch muon_2j1t_forward ST_sch muon_3j1t_central ST_sch muon_3j1t_forward ST_sch muon_3j2t ST_sch electron_2j1t_central ST_sch electron_2j1t_forward ST_sch electron_3j1t_central ST_sch electron_3j1t_forward ST_sch electron_3j2t ST_sch
 #RateParam ST_tW_ muon_2j1t_central ST_tW muon_2j1t_forward ST_tW muon_3j1t_central ST_tW muon_3j1t_forward ST_tW muon_3j2t ST_tW electron_2j1t_central ST_tW electron_2j1t_forward ST_tW electron_3j1t_central ST_tW electron_3j1t_forward ST_tW electron_3j2t ST_tW
 #RateParam DYJets_ muon_2j1t_central DYJets muon_2j1t_forward DYJets muon_3j1t_central DYJets muon_3j1t_forward DYJets muon_3j2t DYJets electron_2j1t_central DYJets electron_2j1t_forward DYJets electron_3j1t_central DYJets electron_3j1t_forward DYJets electron_3j2t DYJets
@@ -57,8 +58,8 @@ LumiUncertainty 0.027
 #NormSystematics taken only for normalisation. The code will automatically neglect the shape and take the normalisation from the histograms up/down
 #Systematics taken in normalisation + shape from the histograms
 
-NormSystematics btag mistag lepE lepMu pu pdf_total
-Systematics jes q2TT q2ST_tch q2WJets q2VV hdampTT psq2ST_tch hdampST_tch psq2TT
+NormSystematics btag mistag lepE lepMu pu
+Systematics jes pdf_total q2TT q2ST_tch q2WJets q2VV hdampTT psq2ST_tch hdampST_tch psq2TT
 
-#
+# jer
 #NormSystematics q2VV QCD_xsec

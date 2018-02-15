@@ -20,21 +20,19 @@ BinCut 0 0 0 0 0
 #Using the same parameter for tW and ttbar for now:
 RateParam WJets_electron electron_2j1t_central WJets electron_2j1t_forward WJets electron_3j1t_central WJets electron_3j1t_forward WJets
 RateParam TT_electron electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
-RateParam TT_sd_electron electron_2j1t_central TT_sd electron_2j1t_central ST_tW electron_2j1t_forward TT_sd electron_2j1t_forward ST_tW electron_3j1t_central TT_sd electron_3j1t_central ST_tW electron_3j1t_forward TT_sd electron_3j1t_forward ST_tW electron_3j2t TT_sd 
-RateParam ST_sd_electron electron_2j1t_central ST_tch_sd electron_2j1t_forward ST_tch_sd electron_3j1t_central ST_tch_sd electron_3j1t_forward ST_tch_sd electron_3j2t ST_tch_sd
-RateParam ST_p_sd_electron electron_2j1t_central ST_tch_p_sd electron_2j1t_forward ST_tch_p_sd electron_3j1t_central ST_tch_p_sd electron_3j1t_forward ST_tch_p_sd electron_3j2t ST_tch_p_sd
 RateParam QCD_electron_2j1t_sr electron_2j1t_forward DDQCD 
-RateParam QCD_electron_3j1t_sr electron_3j1t_forward DDQCD 
+#RateParam QCD_electron_3j1t_sr electron_3j1t_forward DDQCD 
 
+#RateParam TT_sd_electron electron_2j1t_central TT_sd electron_2j1t_central ST_tW electron_2j1t_forward TT_sd electron_2j1t_forward ST_tW electron_3j1t_central TT_sd electron_3j1t_central ST_tW electron_3j1t_forward TT_sd electron_3j1t_forward ST_tW electron_3j2t TT_sd 
+#RateParam ST_sd_electron electron_2j1t_central ST_tch_sd electron_2j1t_forward ST_tch_sd electron_3j1t_central ST_tch_sd electron_3j1t_forward ST_tch_sd electron_3j2t ST_tch_sd
+#RateParam ST_p_sd_electron electron_2j1t_central ST_tch_p_sd electron_2j1t_forward ST_tch_p_sd electron_3j1t_central ST_tch_p_sd electron_3j1t_forward ST_tch_p_sd electron_3j2t ST_tch_p_sd
 #RateParam TT_electron electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW 
 #RateParam TT_electron_3j electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
 #RateParam ST_tch_electron electron_2j1t ST_tch electron_2j1t ST_sch
 
 BackgroundSample TT ttbar
-BackgroundSample TT_sd ttbar
 BackgroundSample ST_sch single top s-channel
 BackgroundSample ST_tch_sd single top t-channel_sd
-BackgroundSample ST_tch_p_sd single top t-channel_sd prod
 BackgroundSample ST_tW  single top tW
 BackgroundSample DYJets Drell-Yan
 BackgroundSample WJets W + jets

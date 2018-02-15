@@ -4,6 +4,8 @@
 
 HistoDirectory /afs/cern.ch/work/a/adeiorio/CMSSW_8_0_26_patch1/src/Analysis/NAAnaFW/bin/Plot/fit
 
+#HistoDirectory ./histos_adi
+
 #OutputDirectory test
 
 Categories muon_2j1t_central muon_2j1t_forward muon_3j1t_central muon_3j1t_forward muon_3j2t
@@ -21,9 +23,6 @@ BinCut 0 0 0 0 0
 #Using the same parameter for tW and ttbar for now:
 RateParam WJets_muon muon_2j1t_central WJets muon_2j1t_forward WJets muon_3j1t_central WJets muon_3j1t_forward WJets
 RateParam TT_muon muon_2j1t_central TT muon_2j1t_central ST_tW muon_2j1t_forward TT muon_2j1t_forward ST_tW muon_3j1t_central TT muon_3j1t_central ST_tW muon_3j1t_forward TT muon_3j1t_forward ST_tW muon_3j2t TT 
-RateParam TT_sd_muon muon_2j1t_central TT_sd muon_2j1t_forward TT_sd muon_3j1t_central TT_sd muon_3j1t_forward TT_sd muon_3j2t TT_sd 
-RateParam ST_sd_muon muon_2j1t_central ST_tch_sd muon_2j1t_forward ST_tch_sd muon_3j1t_central ST_tch_sd muon_3j1t_forward ST_tch_sd muon_3j2t ST_tch_sd
-RateParam ST_p_sd_muon muon_2j1t_central ST_tch_p_sd muon_2j1t_forward ST_tch_p_sd muon_3j1t_central ST_tch_p_sd muon_3j1t_forward ST_tch_p_sd muon_3j2t ST_tch_p_sd
 RateParam QCD_muon_2j1t_sr muon_2j1t_forward DDQCD 
 RateParam QCD_muon_3j1t_sr muon_3j1t_forward DDQCD 
 
@@ -35,10 +34,9 @@ RateParam QCD_muon_3j1t_sr muon_3j1t_forward DDQCD
 #RateParam WJets_muon muon_2j1t_central WJets
 
 BackgroundSample TT ttbar
-BackgroundSample TT_sd ttbar_sd
 BackgroundSample ST_sch single top s-channel
 BackgroundSample ST_tch_sd single top t-channel_sd
-BackgroundSample ST_tch_p_sd single top t-channel_sd
+#ST_tch_sd includes also the other two samples with the Vtd/s vertex: TT_sd and ST_tch_p_sd
 BackgroundSample ST_tW  single top tW
 BackgroundSample DYJets Drell-Yan
 BackgroundSample WJets W + jets
@@ -46,7 +44,6 @@ BackgroundSample VV diboson
 BackgroundSample DDQCD QCD
 
 SignalSample ST_tch single top t-channel
-#SignalSample TT_sd ttbar_sd
 
 #In the above configuration: all channels are fitted simultaneously, but the QCD is fitted separately for each channel.
 #Nota bene 1: it might make sense to separate the WJets in the different b-jet multiplicity, this is just an example where only light and heavy flavored jets are separated. Should be done properly by changing according to heavy flavor components (light, b,c-jets etc).
@@ -59,9 +56,9 @@ LumiUncertainty 0.027
 #NormSystematics taken only for normalisation. The code will automatically neglect the shape and take the normalisation from the histograms up/down
 #Systematics taken in normalisation + shape from the histograms
 
-#NormSystematics btag mistag lepMu pu
-NormSystematics btag mistag lepMu pu
-Systematics pdf_total q2WJets q2TT q2VV q2ST_tch jes hdampTT psq2TT hdampST_tch psq2ST_tch
+#NormSystematics mistag lepMu pu
+NormSystematics mistag lepMu pu 
+Systematics q2WJets q2TT q2VV q2ST_tch jes psq2TT hdampTT hdampST_tch psq2ST_tch pdf_total btag
 # hdampTT hdampST_tch psq2ST_tch psq2TT  q2ST_tch_sd jer
 
 
