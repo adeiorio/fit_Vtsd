@@ -1,7 +1,6 @@
 #single-top metadatacard
 #Note: lines starting with # are commented
 #-----------------------------------------
-
 #InputDirectory
 HistoDirectory /afs/cern.ch/work/a/adeiorio/CMSSW_8_0_26_patch1/src/Analysis/NAAnaFW/bin/Plot/fit
 
@@ -19,11 +18,14 @@ BinCut 0 0 0 0 0
 #Rate parameters: fitted with flat prior. The first is the parameter name, followed by pairings of category physicsProcess making use of the same parameter
 
 #Using the same parameter for tW and ttbar for now:
-RateParam WJets_muon muon_2j1t_central WJets muon_2j1t_forward WJets muon_3j1t_central WJets muon_3j1t_forward WJets
-RateParam TT_muon muon_2j1t_central TT muon_2j1t_central ST_tW muon_2j1t_forward TT muon_2j1t_forward ST_tW muon_3j1t_central TT muon_3j1t_central ST_tW muon_3j1t_forward TT muon_3j1t_forward ST_tW muon_3j2t TT 
+#RateParam WJets_muon muon_2j1t_central WJets muon_2j1t_forward WJets muon_3j1t_central WJets muon_3j1t_forward WJets
+#RateParam TT_muon muon_2j1t_central TT muon_2j1t_central ST_tW muon_2j1t_forward TT muon_2j1t_forward ST_tW muon_3j1t_central TT muon_3j1t_central ST_tW muon_3j1t_forward TT muon_3j1t_forward ST_tW muon_3j2t TT 
 RateParam ST_muon muon_2j1t_central ST_tch muon_2j1t_forward ST_tch muon_3j1t_central ST_tch muon_3j1t_forward ST_tch muon_3j2t ST_tch
-RateParam QCD_muon_2j1t_sr muon_2j1t_forward DDQCD 
-RateParam QCD_muon_3j1t_sr muon_3j1t_forward DDQCD 
+
+
+
+RateParam QCD_muon_2j1t muon_2j1t_central DDQCD  muon_2j1t_forward DDQCD 
+#RateParam QCD_muon_3j1t_sr muon_3j1t_forward DDQCD 
 
 #RateParam TT_muon muon_2j1t_central TT muon_2j1t_central ST_tW muon_2j1t_forward TT muon_2j1t_forward ST_tW 
 #RateParam TT_muon_3j muon_3j1t_central TT muon_3j1t_central ST_tW muon_3j1t_forward TT muon_3j1t_forward ST_tW muon_3j2t TT 
@@ -53,7 +55,5 @@ LumiUncertainty 0.027
 #Systematics taken in normalisation + shape from the histograms
 
 NormSystematics btag mistag lepMu pu
-Systematics jes pdf_total q2ST_tch q2WJets q2TT q2ST_tch_sd psq2TT psq2ST_tch hdampST_tch hdampTT
-#NormSystematics btag mistag lep pu pdf_total  jer
-#Systematics jes q2WJets q2TT q2ST_tch_sd q2ST_tch 
-#Systematics jes pdf_total psq2
+Systematics jes pdf_total q2ST_tch q2WJets q2TT psq2TT psq2ST_tch hdampST_tch hdampTT  q2VV q2ST_tch_sd 
+#

@@ -2,7 +2,7 @@
 #Note: lines starting with # are commented
 #-----------------------------------------
 
-HistoDirectory /afs/cern.ch/work/a/adeiorio/CMSSW_8_0_26_patch1/src/Analysis/NAAnaFW/bin/Plot/fit
+HistoDirectory /afs/cern.ch/work/a/adeiorio/CMSSW_8_0_26_patch1/src/Analysis/NAAnaFW/bin/Plot/electron
 
 #OutputDirectory test
 
@@ -50,6 +50,6 @@ LumiUncertainty 0.027
 #NormSystematics taken only for normalisation. The code will automatically neglect the shape and take the normalisation from the histograms up/down
 #Systematics taken in normalisation + shape from the histograms
 
-NormSystematics btag pdf_total mistag lepE pu
-Systematics jes q2ST_tch q2WJets q2TT q2ST_tch_sd psq2TT psq2ST_tch hdampTT hdampST_tch
+#NormSystematics btag pdf_total mistag lepE pu
+#Systematics jes q2ST_tch q2WJets q2TT q2ST_tch_sd psq2TT psq2ST_tch hdampTT hdampST_tch
 #Systematics jes jer pdf_total

@@ -7,6 +7,12 @@ import sys
 import ROOT
 import commands, os
 import numpy
+import optparse
+
+usage = 'python makeplot.py'
+parser = optparse.OptionParser(usage)
+parser.add_option('-L','--lep', dest='lep', type='string', default = 'muon', help='Default make muon')
+(opt, args) = parser.parse_args()
 
 def readSF(rootfile,  process, region):#, channel, sys='', histodir="./histos/", format="combine"):
     #           fileFit = ROOT.TFile.Open(rootfile)
@@ -26,26 +32,22 @@ def readSF(rootfile,  process, region):#, channel, sys='', histodir="./histos/",
     sf = neventspost/neventspre
     return sf
 
-process = ["TT", "DDQCD", "ST_tch", "ST_tch_sd", "WJets","VV","DYJets","ST_tW","ST_sch"]#
+process = ["TT", "DDQCD", "ST_tch", "WJets","VV","DYJets","ST_tW","ST_sch"]# "ST_tch_sd",
 regions = {
 "muon":["muon_2j1t_central","muon_2j1t_forward","muon_3j1t_central","muon_3j1t_forward","muon_3j2t"],
 "electron":["electron_2j1t_central","electron_2j1t_forward","electron_3j1t_central","electron_3j1t_forward","electron_3j2t"],
 "muele":["muon_2j1t_central","muon_2j1t_forward","muon_3j1t_central","muon_3j1t_forward","muon_3j2t","electron_2j1t_central","electron_2j1t_forward","electron_3j1t_central","electron_3j1t_forward","electron_3j2t"]
 }
 
-lepton = "muon"
-#lepton = "electron"
-#lepton = "muele"
+lepton = opt.lep
 rootfile=lepton+"/mlfit.root"
 
-'''
 for p in process:
     print "**************************************************"
     print "******              %-9s             ********" %(p)
     print "**************************************************"
     for region in regions[lepton]:
         print "scale factor for %-20s  is: %7.3f" % (region, readSF(rootfile,p,region))
-'''
 
 fileFit = ROOT.TFile.Open(str(rootfile), "READ")
 print (fileFit.Get("fit_b")).Print()

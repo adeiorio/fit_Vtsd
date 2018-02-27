@@ -1,48 +1,39 @@
 >>> datacard for ST_tch_sd electron_3j1t_forward, shape
 
 imax 1 number of channels (electron_2j1t_central, electron_2j1t_forward, electron_3j1t_central, electron_3j1t_forward, electron_3j2t)
-jmax 7 number of backgrounds (TT, ST_tch, ST_tW, DYJets, WJets, VV, DDQCD)
-kmax 11 number of nuisance parameters (lumi, jes, q2ST_tch, q2WJets, q2TT, q2ST_tch_sd, btag, mistag, lepE, pu, pdf_total)
+jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 15 number of nuisance parameters (lumi, jes, pdf_total, q2ST_tch, q2WJets, q2TT, psq2TT, psq2ST_tch, hdampST_tch, hdampTT, q2ST_tch_sd, btag, mistag, lepE, pu)
 ---------------------
 shapes	*	*	../ws/workspace.root	w:$PROCESS_$CHANNEL	w:$PROCESS_$CHANNEL_$SYSTEMATIC
 shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
 ---------------------
 bin	electron_3j1t_forward
-observation	36137
+observation	31979
 ---------------------
-bin	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward
-process	ST_tch_sd	TT	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD
-process	0	1	2	3	4	5	6	7
-rate	6.778	2.583e+04	4788	1824	1096	2746	104.4	0.85
+bin	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward
+process	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7	8
+rate	79.13	2.245e+04	160.8	4320	1587	1004	2524	91.04	1
 ---------------------
-lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
-btag	lnN	1	1.011	1.007	1.014	1.021	1.031	1.022	1.003
-mistag	lnN	1.239	1	1	1	1.024	1.021	1.014	1.001
-lepE	lnN	1	1	1	1	1	1	1	1
-pu	lnN	1.003	1	1.001	1.004	1.094	1.04	1.002	1.003
-pdf_total	lnN	1.033	1.031	1.034	1	1.023	1.045	1.041	1
-jes	shape	1	1	1	1	1	1	1	1
-q2ST_tch	shape	1	1	1	1	1	1	1	1
-q2WJets	shape	1	1	1	1	1	1	1	1
-q2TT	shape	1	1	1	1	1	1	1	1
-q2ST_tch_sd	shape	1	1	1	1	1	1	1	1
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+btag	lnN	1.003	1.011	1.008	1.007	1.014	1.022	1.032	1.021	1.003
+mistag	lnN	1.2	1	1	1	1	1.025	1.02	1.014	1.001
+lepE	lnN	1.002	1.017	1.015	1.016	1.018	1.018	1.018	1.017	1
+pu	lnN	1.002	1.001	1.013	1.001	1.003	1.081	1.041	1.004	1.002
+jes	shape	1	1	1	1	1	1	1	1	1
+pdf_total	shape	1	1	1	1	1	1	1	1	1
+q2ST_tch	shape	1	1	1	1	1	1	1	1	1
+q2WJets	shape	1	1	1	1	1	1	1	1	1
+q2TT	shape	1	1	1	1	1	1	1	1	1
+psq2TT	shape	1	1	1	1	1	1	1	1	1
+psq2ST_tch	shape	1	1	1	1	1	1	1	1	1
+hdampST_tch	shape	1	1	1	1	1	1	1	1	1
+hdampTT	shape	1	1	1	1	1	1	1	1	1
+q2ST_tch_sd	shape	1	1	1	1	1	1	1	1	1
+QCD_electron_2j1t_sr	rateParam	electron_2j1t_central	DDQCD	1
 QCD_electron_2j1t_sr	rateParam	electron_2j1t_forward	DDQCD	1
-QCD_electron_3j1t_sr	rateParam	electron_3j1t_forward	DDQCD	1
 ST_electron	rateParam	electron_2j1t_central	ST_tch	1
 ST_electron	rateParam	electron_2j1t_forward	ST_tch	1
 ST_electron	rateParam	electron_3j1t_central	ST_tch	1
 ST_electron	rateParam	electron_3j1t_forward	ST_tch	1
 ST_electron	rateParam	electron_3j2t	ST_tch	1
-TT_electron	rateParam	electron_2j1t_central	TT	1
-TT_electron	rateParam	electron_2j1t_central	ST_tW	1
-TT_electron	rateParam	electron_2j1t_forward	TT	1
-TT_electron	rateParam	electron_2j1t_forward	ST_tW	1
-TT_electron	rateParam	electron_3j1t_central	TT	1
-TT_electron	rateParam	electron_3j1t_central	ST_tW	1
-TT_electron	rateParam	electron_3j1t_forward	TT	1
-TT_electron	rateParam	electron_3j1t_forward	ST_tW	1
-TT_electron	rateParam	electron_3j2t	TT	1
-WJets_electron	rateParam	electron_2j1t_central	WJets	1
-WJets_electron	rateParam	electron_2j1t_forward	WJets	1
-WJets_electron	rateParam	electron_3j1t_central	WJets	1
-WJets_electron	rateParam	electron_3j1t_forward	WJets	1

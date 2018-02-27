@@ -2,7 +2,7 @@
 
 imax 1 number of channels (electron_2j1t)
 jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, ST_tch_sd)
-kmax 15 number of nuisance parameters (lumi, jes, q2ST_tch, q2WJets, q2TT, q2ST_tch_sd, psq2TT, psq2ST_tch, hdampTT, hdampST_tch, btag, pdf_total, mistag, lepE, pu)
+kmax 3 number of nuisance parameters (lumi, lepE, pu)
 ---------------------
 bin	electron_2j1t
 observation	248521
@@ -10,20 +10,8 @@ observation	248521
 bin	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t
 process	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	ST_tch_sd
 process	0	1	2	3	4	5	6	7	8
-rate	1.781e+04	1.443e+05	3568	1.992e+04	1.701e+04	1.228e+04	3.262e+04	998.1	8.797
+rate	1.774e+04	1.443e+05	3568	1.992e+04	1.701e+04	1.228e+04	3.262e+04	998.1	8.797
 ---------------------
-lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
-jes	lnN	1.003	1.057	1.015	1.025	1.031	1.034	1.018	1.022	1.082
-q2ST_tch	lnN	1	1	1	1.015	1	1	1	1	1
-q2WJets	lnN	1	1	1	1	1	1	1.048	1	1
-q2TT	lnN	1	1.115	1	1	1	1	1	1	1
-q2ST_tch_sd	lnN	1	1	1	1	1	1	1	1	1.008
-psq2TT	lnN	1	1.028	1	1	1	1	1	1	1
-psq2ST_tch	lnN	1	1	1	1.075	1	1	1	1	1
-hdampTT	lnN	1	1.032	1	1	1	1	1	1	1
-hdampST_tch	lnN	1	1	1	1.024	1	1	1	1	1
-btag	lnN	1.001	1.01	1.004	1.013	1.015	1.017	1.029	1.027	1.018
-pdf_total	lnN	1	1.023	1	1.027	1	1.027	1.035	1.03	1.008
-mistag	lnN	1.001	1	1	1	1	1.009	1.021	1.011	1.004
-lepE	lnN	1	1.008	1.008	1.008	1.009	1.008	1.008	1.009	1.008
-pu	lnN	1	1.008	1.007	1.008	1.006	1.009	1.001	1.011	1.012
+lumi	lnN	1.057	1.057	1.057	1.057	1.057	1.057	1.057	1.057	1.057
+lepE	lnN	1.325	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025
+pu	lnN	1.325	1.025	1.025	1.025	1.025	1.024	1.024	1.025	1.025

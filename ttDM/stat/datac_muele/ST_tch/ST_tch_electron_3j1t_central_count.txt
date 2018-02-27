@@ -1,30 +1,32 @@
 >>> datacard for ST_tch electron_3j1t_central, count
 
 imax 1 number of channels (muon_2j1t_central, muon_2j1t_forward, muon_3j1t_central, muon_3j1t_forward, muon_3j2t, electron_2j1t_central, electron_2j1t_forward, electron_3j1t_central, electron_3j1t_forward, electron_3j2t)
-jmax 8 number of backgrounds (TT, ST_sch, ST_tch_sd, ST_tW, DYJets, WJets, VV, DDQCD)
-kmax 16 number of nuisance parameters (lumi, jes, q2TT, q2ST_tch, q2WJets, q2VV, hdampTT, psq2ST_tch, hdampST_tch, psq2TT, btag, mistag, lepE, lepMu, pu, pdf_total)
+jmax 7 number of backgrounds (TT, ST_sch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 18 number of nuisance parameters (lumi, jes, pdf_total, q2TT, q2VV, q2DYJets, jer, psq2TT, hdampTT, hdampST_tch, psq2ST_tch, q2WJets, q2ST_tch, mistag, lepMu, lepE, pu, btag)
 ---------------------
 bin	electron_3j1t_central
 observation	138114
 ---------------------
-bin	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central
-process	ST_tch	TT	ST_sch	ST_tch_sd	ST_tW	DYJets	WJets	VV	DDQCD
-process	0	1	2	3	4	5	6	7	8
-rate	4071	1.189e+05	785.7	4.988	7862	2056	7371	393.7	1
+bin	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central	electron_3j1t_central
+process	ST_tch	TT	ST_sch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7
+rate	3969	1.159e+05	766.1	7666	2005	7187	383.8	0.2558
 ---------------------
-lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
-jes	lnN	1.013	1.009	1.022	1.011	1.008	1.028	1.026	1.016	1.003
-q2TT	lnN	1	1.118	1	1	1	1	1	1	1
-q2ST_tch	lnN	1.005	1	1	1	1	1	1	1	1
-q2WJets	lnN	1	1	1	1	1	1	1.09	1	1
-q2VV	lnN	1	1	1	1	1	1	1	1.058	1
-hdampTT	lnN	1	1.041	1	1	1	1	1	1	1
-psq2ST_tch	lnN	1.071	1	1	1	1	1	1	1	1
-hdampST_tch	lnN	1.024	1	1	1	1	1	1	1	1
-psq2TT	lnN	1	1.036	1	1	1	1	1	1	1
-btag	lnN	1.005	1.005	1.003	1.017	1.012	1.013	1.023	1.026	1.002
-mistag	lnN	1	1	1	1.001	1	1.009	1.02	1.016	1.001
-lepE	lnN	1.008	1.009	1.008	1.008	1.009	1.008	1.009	1.009	1
-lepMu	lnN	1	1	1	1	1	1	1	1	1
-pu	lnN	1.007	1.006	1.011	1.003	1.007	1.025	1.007	1.001	1.001
-pdf_total	lnN	1.025	1.023	1	1.007	1	1.025	1.033	1.031	1
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+jes	lnN	1.013	1.009	1.022	1.008	1.028	1.026	1.016	1.003
+pdf_total	lnN	1.012	1.011	1	1	1.012	1.016	1.015	1
+q2TT	lnN	1	1.118	1	1	1	1	1	1
+q2VV	lnN	1	1	1	1	1	1	1.058	1
+q2DYJets	lnN	1	1	1	1	1.078	1	1	1
+jer	lnN	1.002	1.001	1.002	1	1.055	1.006	1.001	1
+psq2TT	lnN	1	1.036	1	1	1	1	1	1
+hdampTT	lnN	1	1.041	1	1	1	1	1	1
+hdampST_tch	lnN	1.024	1	1	1	1	1	1	1
+psq2ST_tch	lnN	1.071	1	1	1	1	1	1	1
+q2WJets	lnN	1	1	1	1	1	1.09	1	1
+q2ST_tch	lnN	1.005	1	1	1	1	1	1	1
+mistag	lnN	1	1	1	1	1.009	1.02	1.016	1.001
+lepMu	lnN	1	1	1	1	1	1	1	1
+lepE	lnN	1.016	1.017	1.016	1.018	1.017	1.017	1.019	1
+pu	lnN	1.007	1.006	1.011	1.007	1.025	1.007	1.001	1.001
+btag	lnN	1.005	1.005	1.003	1.012	1.013	1.023	1.026	1.002

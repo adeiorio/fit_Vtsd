@@ -18,14 +18,12 @@ BinCut 0 0 0 0 0
 #Rate parameters: fitted with flat prior. The first is the parameter name, followed by pairings of category physicsProcess making use of the same parameter
 
 #Using the same parameter for tW and ttbar for now:
-RateParam WJets_electron electron_2j1t_central WJets electron_2j1t_forward WJets electron_3j1t_central WJets electron_3j1t_forward WJets
-RateParam TT_electron electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
-
-
+#RateParam WJets_electron electron_2j1t_central WJets electron_2j1t_forward WJets electron_3j1t_central WJets electron_3j1t_forward WJets
+#RateParam TT_electron electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
 RateParam ST_electron electron_2j1t_central ST_tch electron_2j1t_forward ST_tch electron_3j1t_central ST_tch electron_3j1t_forward ST_tch electron_3j2t ST_tch
 
-RateParam QCD_electron_2j1t_sr electron_2j1t_forward DDQCD 
-RateParam QCD_electron_3j1t_sr electron_3j1t_forward DDQCD 
+RateParam QCD_electron_2j1t_sr electron_2j1t_central DDQCD electron_2j1t_forward DDQCD 
+#RateParam QCD_electron_3j1t_sr electron_3j1t_forward DDQCD 
 
 #RateParam TT_electron electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW 
 #RateParam TT_electron_3j electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
@@ -54,8 +52,8 @@ LumiUncertainty 0.027
 #NormSystematics taken only for normalisation. The code will automatically neglect the shape and take the normalisation from the histograms up/down
 #Systematics taken in normalisation + shape from the histograms
 
-NormSystematics btag mistag lepE pu pdf_total
-Systematics jes q2ST_tch q2WJets q2TT q2ST_tch_sd
-# jer psq2TT psq2ST_tch hdampST_tch hdampTT 
+NormSystematics btag mistag lepE pu 
+Systematics jes pdf_total q2ST_tch q2WJets q2TT psq2TT psq2ST_tch hdampST_tch hdampTT  q2ST_tch_sd
+# jer
 #Systematics jes pdf_total q2WJets q2TT q2ST_tch_sd
 #Systematics jes pdf_total

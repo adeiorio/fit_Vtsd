@@ -16,23 +16,24 @@ RooRealVar BDT
 BinCut 0 0 0 0 0 
 
 #Rate parameters: fitted with flat prior. The first is the parameter name, followed by pairings of category physicsProcess making use of the same parameter
-
 #Using the same parameter for tW and ttbar for now:
-RateParam WJets_electron electron_2j1t_central WJets electron_2j1t_forward WJets electron_3j1t_central WJets electron_3j1t_forward WJets
-RateParam TT_electron electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
-RateParam QCD_electron_2j1t_sr electron_2j1t_forward DDQCD 
-#RateParam QCD_electron_3j1t_sr electron_3j1t_forward DDQCD 
+#RateParam WJets_electron electron_2j1t_central WJets electron_2j1t_forward WJets electron_3j1t_central WJets electron_3j1t_forward WJets
+#RateParam TT_electron electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
+#RateParam WJets_electron electron_2j1t_central WJets electron_3j1t_central WJets
+#RateParam TT_electron electron_2j1t_forward TT electron_2j1t_forward ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW  
 
+RateParam QCD_electron_2j1t electron_2j1t_central DDQCD electron_2j1t_forward DDQCD
+#RateParam QCD_electron_2j1t electron_2j1t_central DDQCD electron_2j1t_forward DDQCD electron_3j1t_central DDQCD electron_3j1t_forward DDQCD 
+#RateParam QCD_electron_3j1t electron_3j1t_central DDQCD electron_3j1t_forward DDQCD 
 #RateParam TT_sd_electron electron_2j1t_central TT_sd electron_2j1t_central ST_tW electron_2j1t_forward TT_sd electron_2j1t_forward ST_tW electron_3j1t_central TT_sd electron_3j1t_central ST_tW electron_3j1t_forward TT_sd electron_3j1t_forward ST_tW electron_3j2t TT_sd 
 #RateParam ST_sd_electron electron_2j1t_central ST_tch_sd electron_2j1t_forward ST_tch_sd electron_3j1t_central ST_tch_sd electron_3j1t_forward ST_tch_sd electron_3j2t ST_tch_sd
 #RateParam ST_p_sd_electron electron_2j1t_central ST_tch_p_sd electron_2j1t_forward ST_tch_p_sd electron_3j1t_central ST_tch_p_sd electron_3j1t_forward ST_tch_p_sd electron_3j2t ST_tch_p_sd
 #RateParam TT_electron electron_2j1t_central TT electron_2j1t_central ST_tW electron_2j1t_forward TT electron_2j1t_forward ST_tW 
 #RateParam TT_electron_3j electron_3j1t_central TT electron_3j1t_central ST_tW electron_3j1t_forward TT electron_3j1t_forward ST_tW electron_3j2t TT 
-#RateParam ST_tch_electron electron_2j1t ST_tch electron_2j1t ST_sch
 
 BackgroundSample TT ttbar
 BackgroundSample ST_sch single top s-channel
-BackgroundSample ST_tch_sd single top t-channel_sd
+#BackgroundSample ST_tch_sd single top t-channel_sd
 BackgroundSample ST_tW  single top tW
 BackgroundSample DYJets Drell-Yan
 BackgroundSample WJets W + jets
@@ -40,7 +41,6 @@ BackgroundSample VV diboson
 BackgroundSample DDQCD QCD
 
 SignalSample ST_tch single top t-channel
-#SignalSample TT_sd ttbar_sd
 
 #In the above configuration: all channels are fitted simultaneously, but the QCD is fitted separately for each channel.
 #Nota bene 1: it might make sense to separate the WJets in the different b-jet multiplicity, this is just an example where only light and heavy flavored jets are separated. Should be done properly by changing according to heavy flavor components (light, b,c-jets etc).
@@ -54,6 +54,7 @@ LumiUncertainty 0.027
 #Systematics taken in normalisation + shape from the histograms
 
 NormSystematics btag mistag pu lepE
-Systematics jes pdf_total q2ST_tch q2WJets q2VV q2TT psq2TT psq2ST_tch hdampST_tch hdampTT
+Systematics jes psq2ST_tch psq2TT hdampST_tch hdampTT q2TT q2DYJets pdf_total jer q2WJets q2VV q2ST_tch
+# q2ST_tch_sd
+#Systematics
 
-# jer lepE q2ST_tch_sd

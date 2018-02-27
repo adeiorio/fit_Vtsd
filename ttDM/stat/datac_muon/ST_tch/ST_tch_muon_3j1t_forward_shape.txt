@@ -1,8 +1,8 @@
 >>> datacard for ST_tch muon_3j1t_forward, shape
 
 imax 1 number of channels (muon_2j1t_central, muon_2j1t_forward, muon_3j1t_central, muon_3j1t_forward, muon_3j2t)
-jmax 10 number of backgrounds (TT, TT_sd, ST_sch, ST_tch_sd, ST_tch_p_sd, ST_tW, DYJets, WJets, VV, DDQCD)
-kmax 15 number of nuisance parameters (lumi, pdf_total, q2WJets, q2TT, q2VV, q2ST_tch, jes, hdampTT, psq2TT, hdampST_tch, psq2ST_tch, btag, mistag, lepMu, pu)
+jmax 7 number of backgrounds (TT, ST_sch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 161 number of nuisance parameters (lumi, jes, pdf_total, q2TT, q2ST_tch, q2VV, q2DYJets, jer, psq2TT, hdampTT, hdampST_tch, psq2ST_tch, q2WJets, mcstat_muon_2j1t_central_TT_bin1, mcstat_muon_2j1t_central_TT_bin2, mcstat_muon_2j1t_central_TT_bin3, mcstat_muon_2j1t_central_TT_bin4, mcstat_muon_2j1t_central_TT_bin5, mcstat_muon_2j1t_central_TT_bin6, mcstat_muon_2j1t_central_TT_bin7, mcstat_muon_2j1t_central_TT_bin8, mcstat_muon_2j1t_central_TT_bin9, mcstat_muon_2j1t_central_TT_bin10, mcstat_muon_2j1t_central_TT_bin11, mcstat_muon_2j1t_central_TT_bin12, mcstat_muon_2j1t_central_TT_bin13, mcstat_muon_2j1t_central_TT_bin14, mcstat_muon_2j1t_central_TT_bin15, mcstat_muon_2j1t_central_TT_bin16, mcstat_muon_2j1t_central_TT_bin17, mcstat_muon_2j1t_central_TT_bin18, mcstat_muon_2j1t_central_TT_bin19, mcstat_muon_2j1t_central_TT_bin20, mcstat_muon_2j1t_central_TT_bin21, mcstat_muon_2j1t_central_TT_bin22, mcstat_muon_2j1t_central_TT_bin23, mcstat_muon_2j1t_central_TT_bin24, mcstat_muon_2j1t_central_TT_bin25, mcstat_muon_2j1t_central_TT_bin26, mcstat_muon_2j1t_central_TT_bin27, mcstat_muon_2j1t_central_TT_bin28, mcstat_muon_2j1t_central_TT_bin29, mcstat_muon_2j1t_central_TT_bin30, mcstat_muon_2j1t_central_TT_bin31, mcstat_muon_2j1t_central_TT_bin32, mcstat_muon_2j1t_central_TT_bin33, mcstat_muon_2j1t_central_TT_bin34, mcstat_muon_2j1t_central_TT_bin35, mcstat_muon_2j1t_central_TT_bin36, mcstat_muon_2j1t_forward_TT_bin1, mcstat_muon_2j1t_forward_TT_bin2, mcstat_muon_2j1t_forward_TT_bin3, mcstat_muon_2j1t_forward_TT_bin4, mcstat_muon_2j1t_forward_TT_bin5, mcstat_muon_2j1t_forward_TT_bin6, mcstat_muon_2j1t_forward_TT_bin7, mcstat_muon_2j1t_forward_TT_bin8, mcstat_muon_2j1t_forward_TT_bin9, mcstat_muon_2j1t_forward_TT_bin10, mcstat_muon_2j1t_forward_TT_bin11, mcstat_muon_2j1t_forward_TT_bin12, mcstat_muon_2j1t_forward_TT_bin13, mcstat_muon_2j1t_forward_TT_bin14, mcstat_muon_2j1t_forward_TT_bin15, mcstat_muon_2j1t_forward_TT_bin16, mcstat_muon_2j1t_forward_TT_bin17, mcstat_muon_2j1t_forward_TT_bin18, mcstat_muon_2j1t_forward_TT_bin19, mcstat_muon_2j1t_forward_TT_bin20, mcstat_muon_2j1t_forward_TT_bin21, mcstat_muon_2j1t_forward_TT_bin22, mcstat_muon_2j1t_forward_TT_bin23, mcstat_muon_2j1t_forward_TT_bin24, mcstat_muon_2j1t_forward_TT_bin25, mcstat_muon_2j1t_forward_TT_bin26, mcstat_muon_2j1t_forward_TT_bin27, mcstat_muon_2j1t_forward_TT_bin28, mcstat_muon_2j1t_forward_TT_bin29, mcstat_muon_2j1t_forward_TT_bin30, mcstat_muon_2j1t_forward_TT_bin31, mcstat_muon_2j1t_forward_TT_bin32, mcstat_muon_2j1t_forward_TT_bin33, mcstat_muon_2j1t_forward_TT_bin34, mcstat_muon_2j1t_forward_TT_bin35, mcstat_muon_2j1t_forward_TT_bin36, mcstat_muon_3j1t_central_TT_bin1, mcstat_muon_3j1t_central_TT_bin2, mcstat_muon_3j1t_central_TT_bin3, mcstat_muon_3j1t_central_TT_bin4, mcstat_muon_3j1t_central_TT_bin5, mcstat_muon_3j1t_central_TT_bin6, mcstat_muon_3j1t_central_TT_bin7, mcstat_muon_3j1t_central_TT_bin8, mcstat_muon_3j1t_central_TT_bin9, mcstat_muon_3j1t_central_TT_bin10, mcstat_muon_3j1t_central_TT_bin11, mcstat_muon_3j1t_central_TT_bin12, mcstat_muon_3j1t_central_TT_bin13, mcstat_muon_3j1t_central_TT_bin14, mcstat_muon_3j1t_central_TT_bin15, mcstat_muon_3j1t_central_TT_bin16, mcstat_muon_3j1t_central_TT_bin17, mcstat_muon_3j1t_central_TT_bin18, mcstat_muon_3j1t_central_TT_bin19, mcstat_muon_3j1t_central_TT_bin20, mcstat_muon_3j1t_central_TT_bin21, mcstat_muon_3j1t_central_TT_bin22, mcstat_muon_3j1t_central_TT_bin23, mcstat_muon_3j1t_central_TT_bin24, mcstat_muon_3j1t_central_TT_bin25, mcstat_muon_3j1t_central_TT_bin26, mcstat_muon_3j1t_central_TT_bin27, mcstat_muon_3j1t_central_TT_bin28, mcstat_muon_3j1t_central_TT_bin29, mcstat_muon_3j1t_central_TT_bin30, mcstat_muon_3j1t_central_TT_bin31, mcstat_muon_3j1t_central_TT_bin32, mcstat_muon_3j1t_central_TT_bin33, mcstat_muon_3j1t_central_TT_bin34, mcstat_muon_3j1t_central_TT_bin35, mcstat_muon_3j1t_central_TT_bin36, mcstat_muon_3j1t_forward_TT_bin1, mcstat_muon_3j1t_forward_TT_bin2, mcstat_muon_3j1t_forward_TT_bin3, mcstat_muon_3j1t_forward_TT_bin4, mcstat_muon_3j1t_forward_TT_bin5, mcstat_muon_3j1t_forward_TT_bin6, mcstat_muon_3j1t_forward_TT_bin7, mcstat_muon_3j1t_forward_TT_bin8, mcstat_muon_3j1t_forward_TT_bin9, mcstat_muon_3j1t_forward_TT_bin10, mcstat_muon_3j1t_forward_TT_bin11, mcstat_muon_3j1t_forward_TT_bin12, mcstat_muon_3j1t_forward_TT_bin13, mcstat_muon_3j1t_forward_TT_bin14, mcstat_muon_3j1t_forward_TT_bin15, mcstat_muon_3j1t_forward_TT_bin16, mcstat_muon_3j1t_forward_TT_bin17, mcstat_muon_3j1t_forward_TT_bin18, mcstat_muon_3j1t_forward_TT_bin19, mcstat_muon_3j1t_forward_TT_bin20, mcstat_muon_3j1t_forward_TT_bin21, mcstat_muon_3j1t_forward_TT_bin22, mcstat_muon_3j1t_forward_TT_bin23, mcstat_muon_3j1t_forward_TT_bin24, mcstat_muon_3j1t_forward_TT_bin25, mcstat_muon_3j1t_forward_TT_bin26, mcstat_muon_3j1t_forward_TT_bin27, mcstat_muon_3j1t_forward_TT_bin28, mcstat_muon_3j1t_forward_TT_bin29, mcstat_muon_3j1t_forward_TT_bin30, mcstat_muon_3j1t_forward_TT_bin31, mcstat_muon_3j1t_forward_TT_bin32, mcstat_muon_3j1t_forward_TT_bin33, mcstat_muon_3j1t_forward_TT_bin34, mcstat_muon_3j1t_forward_TT_bin35, mcstat_muon_3j1t_forward_TT_bin36, mistag, lepMu, pu, btag)
 ---------------------
 shapes	*	*	../ws/workspace.root	w:$PROCESS_$CHANNEL	w:$PROCESS_$CHANNEL_$SYSTEMATIC
 shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
@@ -10,53 +10,171 @@ shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
 bin	muon_3j1t_forward
 observation	58604
 ---------------------
-bin	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward
-process	ST_tch	TT	TT_sd	ST_sch	ST_tch_sd	ST_tch_p_sd	ST_tW	DYJets	WJets	VV	DDQCD
-process	0	1	2	3	4	5	6	7	8	9	10
-rate	8117	4.112e+04	116.9	427.8	8.196	14.4	2734	1127	6040	169.7	1
+bin	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward
+process	ST_tch	TT	ST_sch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7
+rate	8117	4.112e+04	427.8	2734	1127	6040	169.7	1
 ---------------------
-lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
-btag	lnN	1.008	1.011	1.001	1.01	1.017	1.016	1.015	1.017	1.026	1.026	1.004
-mistag	lnN	1	1	1.236	1	1.001	1	1	1.035	1.023	1.016	1
-lepMu	lnN	1.015	1.014	1.014	1.015	1.014	1.016	1.015	1.015	1.013	1.016	1
-pu	lnN	1.002	1.002	1.004	1.014	1.002	1.011	1.008	1.049	1.014	1.008	1
-pdf_total	shape	1	1	1	1	1	1	1	1	1	1	1
-q2WJets	shape	1	1	1	1	1	1	1	1	1	1	1
-q2TT	shape	1	1	1	1	1	1	1	1	1	1	1
-q2VV	shape	1	1	1	1	1	1	1	1	1	1	1
-q2ST_tch	shape	1	1	1	1	1	1	1	1	1	1	1
-jes	shape	1	1	1	1	1	1	1	1	1	1	1
-hdampTT	shape	1	1	1	1	1	1	1	1	1	1	1
-psq2TT	shape	1	1	1	1	1	1	1	1	1	1	1
-hdampST_tch	shape	1	1	1	1	1	1	1	1	1	1	1
-psq2ST_tch	shape	1	1	1	1	1	1	1	1	1	1	1
-QCD_muon_2j1t_sr	rateParam	muon_2j1t_forward	DDQCD	1
-QCD_muon_3j1t_sr	rateParam	muon_3j1t_forward	DDQCD	1
-ST_p_sd_muon	rateParam	muon_2j1t_central	ST_tch_p_sd	1
-ST_p_sd_muon	rateParam	muon_2j1t_forward	ST_tch_p_sd	1
-ST_p_sd_muon	rateParam	muon_3j1t_central	ST_tch_p_sd	1
-ST_p_sd_muon	rateParam	muon_3j1t_forward	ST_tch_p_sd	1
-ST_p_sd_muon	rateParam	muon_3j2t	ST_tch_p_sd	1
-ST_sd_muon	rateParam	muon_2j1t_central	ST_tch_sd	1
-ST_sd_muon	rateParam	muon_2j1t_forward	ST_tch_sd	1
-ST_sd_muon	rateParam	muon_3j1t_central	ST_tch_sd	1
-ST_sd_muon	rateParam	muon_3j1t_forward	ST_tch_sd	1
-ST_sd_muon	rateParam	muon_3j2t	ST_tch_sd	1
-TT_muon	rateParam	muon_2j1t_central	TT	1
-TT_muon	rateParam	muon_2j1t_central	ST_tW	1
-TT_muon	rateParam	muon_2j1t_forward	TT	1
-TT_muon	rateParam	muon_2j1t_forward	ST_tW	1
-TT_muon	rateParam	muon_3j1t_central	TT	1
-TT_muon	rateParam	muon_3j1t_central	ST_tW	1
-TT_muon	rateParam	muon_3j1t_forward	TT	1
-TT_muon	rateParam	muon_3j1t_forward	ST_tW	1
-TT_muon	rateParam	muon_3j2t	TT	1
-TT_sd_muon	rateParam	muon_2j1t_central	TT_sd	1
-TT_sd_muon	rateParam	muon_2j1t_forward	TT_sd	1
-TT_sd_muon	rateParam	muon_3j1t_central	TT_sd	1
-TT_sd_muon	rateParam	muon_3j1t_forward	TT_sd	1
-TT_sd_muon	rateParam	muon_3j2t	TT_sd	1
-WJets_muon	rateParam	muon_2j1t_central	WJets	1
-WJets_muon	rateParam	muon_2j1t_forward	WJets	1
-WJets_muon	rateParam	muon_3j1t_central	WJets	1
-WJets_muon	rateParam	muon_3j1t_forward	WJets	1
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+mistag	lnN	1	1	1	1	1.035	1.023	1.016	1
+lepMu	lnN	1.015	1.014	1.015	1.015	1.015	1.013	1.016	1
+pu	lnN	1.002	1.002	1.014	1.008	1.049	1.014	1.008	1
+btag	lnN	1.008	1.011	1.01	1.015	1.017	1.026	1.026	1.004
+jes	shape	1	1	1	1	1	1	1	1
+pdf_total	shape	1	1	1	1	1	1	1	1
+q2TT	shape	1	1	1	1	1	1	1	1
+q2ST_tch	shape	1	1	1	1	1	1	1	1
+q2VV	shape	1	1	1	1	1	1	1	1
+q2DYJets	shape	1	1	1	1	1	1	1	1
+jer	shape	1	1	1	1	1	1	1	1
+psq2TT	shape	1	1	1	1	1	1	1	1
+hdampTT	shape	1	1	1	1	1	1	1	1
+hdampST_tch	shape	1	1	1	1	1	1	1	1
+psq2ST_tch	shape	1	1	1	1	1	1	1	1
+q2WJets	shape	1	1	1	1	1	1	1	1
+mcstat_muon_2j1t_central_TT_bin1	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin2	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin3	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin4	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin5	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin6	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin7	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin8	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin9	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin10	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin11	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin12	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin13	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin14	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin15	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin16	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin17	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin18	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin19	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin20	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin21	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin22	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin23	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin24	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin25	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin26	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin27	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin28	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin29	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin30	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin31	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin32	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin33	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin34	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin35	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_central_TT_bin36	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin1	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin2	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin3	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin4	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin5	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin6	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin7	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin8	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin9	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin10	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin11	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin12	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin13	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin14	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin15	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin16	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin17	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin18	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin19	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin20	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin21	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin22	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin23	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin24	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin25	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin26	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin27	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin28	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin29	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin30	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin31	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin32	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin33	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin34	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin35	shape	-	-	-	-	-	-	-	-
+mcstat_muon_2j1t_forward_TT_bin36	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin1	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin2	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin3	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin4	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin5	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin6	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin7	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin8	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin9	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin10	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin11	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin12	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin13	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin14	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin15	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin16	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin17	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin18	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin19	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin20	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin21	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin22	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin23	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin24	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin25	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin26	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin27	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin28	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin29	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin30	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin31	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin32	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin33	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin34	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin35	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_central_TT_bin36	shape	-	-	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin1	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin2	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin3	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin4	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin5	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin6	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin7	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin8	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin9	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin10	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin11	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin12	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin13	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin14	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin15	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin16	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin17	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin18	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin19	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin20	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin21	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin22	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin23	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin24	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin25	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin26	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin27	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin28	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin29	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin30	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin31	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin32	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin33	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin34	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin35	shape	-	1	-	-	-	-	-	-
+mcstat_muon_3j1t_forward_TT_bin36	shape	-	1	-	-	-	-	-	-
+QCD_muon_2j1t	rateParam	muon_2j1t_central	DDQCD	1
+QCD_muon_2j1t	rateParam	muon_2j1t_forward	DDQCD	1
