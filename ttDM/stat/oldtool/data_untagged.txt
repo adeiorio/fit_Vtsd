@@ -1,0 +1,37 @@
+# ttDM datacard
+
+HistoDirectory histos
+# tagged
+#Categories semileptonic_tag semileptonic_untag fullhadronic_tag fullhadronic_untag
+#CategoryFiles semileptonic semileptonic fullhadronic fullhadronic
+#VariableNames metFinal_tag metFinal_untag metFinal_tag metFinal_untag
+#BinCut 5 5 5 5
+
+# untagged
+Categories semileptonic fullhadronic
+CategoryFiles semileptonic fullhadronic
+VariableNames metFinal metFinal
+BinCut 5 5
+
+BackgroundSample TT ttbar
+BackgroundSample SingleTop single top
+BackgroundSample DY Drell-Yan
+BackgroundSample ZToNuNu Z -> nu nu
+BackgroundSample WJets W + jets
+BackgroundSample QCD QCD
+SignalSample DMtt_sc_Mchi1Mphi10	t+DM, mchi = 1 GeV, mphi = 10 GeV
+SignalSample DMtt_sc_Mchi10Mphi10 	t+DM, mchi = 10 GeV, mphi = 10 GeV
+SignalSample DMtt_sc_Mchi1Mphi20 	t+DM, mchi = 1 GeV, mphi = 20 GeV
+SignalSample DMtt_sc_Mchi1Mphi50 	t+DM, mchi = 1 GeV, mphi = 50 GeV
+SignalSample DMtt_sc_Mchi50Mphi50 	t+DM, mchi = 50 GeV, mphi = 50 GeV
+SignalSample DMtt_sc_Mchi1Mphi200 	t+DM, mchi = 1 GeV, mphi = 200 GeV
+SignalSample DMtt_sc_Mchi50Mphi200 	t+DM, mchi = 50 GeV, mphi = 200 GeV
+SignalSample DMtt_sc_Mchi150Mphi200 	t+DM, mchi = 150 GeV, mphi = 200 GeV
+SignalSample DMtt_sc_Mchi50Mphi300 	t+DM, mchi = 50 GeV, mphi = 300 GeV
+SignalSample DMtt_sc_Mchi150Mphi500 	t+DM, mchi = 150 GeV, mphi = 500 GeV
+SignalSample DMtt_sc_Mchi500Mphi500 	t+DM, mchi = 500 GeV, mphi = 500 GeV
+SignalSample DMtt_sc_Mchi1Mphi1000	t+DM, mchi = 1 GeV, mphi = 1000 GeV
+#SignalSample DMtt_sc_Mchi150Mphi1000 	t+DM, mchi = 150 GeV, mphi = 1000 GeV
+
+# Systematics btag jes mistag pu
+# ControlRegion fullhadronic_untag CR3 TT

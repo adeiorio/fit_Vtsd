@@ -1,0 +1,51 @@
+0. Get the combine tool:
+
+   cd CMSSW_7_2_0/src
+   cmsenv
+   git clone https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit
+   scram b -j 10
+
+1. Get all the histograms in one folder after the merging is complete. The format is always:
+   
+    ## Process_systematic_channel.root	
+   
+   All histograms MUST have the same name. The .cpp produces them already in the correct format.
+
+
+2. edit a "metadatacard" like is explained the following example:
+
+     ## metadatacards_st/data_st_mtwfit_muon.txt
+
+     Note that this datacard has all systematics lines commented,
+     if you want to add more make sure that the corresponding histograms are in the
+     folder you indicate or it will not work and complain!
+
+3. run under CMSSW_7_3_0
+     ## scram b -j 10
+     ## analyzeSamples -D myOutputDirectory -d metadatacards_st/data_st_mtwfit_muon.txt
+ 
+    This will automate the datacard production in the directory 
+     ## myOutputDirectory/[nameOfSignalSpecifiedInMetaDatacard]/ 
+    
+    As well as the RooWorkspace in the directory:
+    myOutputDirectory/ws/
+
+    workspace_muon.root
+
+
+4. Maximum likelihood fit with Combine:
+
+   ## combine -M MaxLikelihoodFit testingst/QCDMuEPt20toInf/QCDMuEPt20toInf_shape.txt --saveShapes --saveWithUncertainties --plots
+   
+   A working example, based on the metadatacard above, is this one:
+   ## exampleQCFit.csh   
+ 
+5. Analyze the output of the fit:
+   
+   The output will be here:
+   ## root -l mlfit.root 
+   
+   To get the pulls see also READMEPULLS
+   
+
+

@@ -1,0 +1,17 @@
+# This is a comment line
+
+HistoDirectory histos
+Categories semileptonic_CR_TT fullhadronic
+CategoryFiles semileptonic fullhadronic
+
+VariableNames metFinal metFinal
+RooRealVar met
+BinCut 5 6
+
+BackgroundSample TT ttbar
+SignalSample DMtt_sc_Mchi1Mphi10	t+DM, mchi = 1 GeV, mphi = 10 GeV
+
+LumiUncertainty 0.048
+Systematics mcstat_semileptonic_CR_TT_TT_bin1
+
+ControlRegion semileptonic_CR_TT 2lep TT

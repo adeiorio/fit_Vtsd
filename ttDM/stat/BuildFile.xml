@@ -1,0 +1,8 @@
+<use name="boost_program_options"/>
+<use name="root"/>
+<use name="roofit"/>
+<use name="HiggsAnalysis/CombinedLimit"/>
+<flags cxxflags="-g -ggdb -O0" />
+<export>
+  <lib name="1"/>
+</export>

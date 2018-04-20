@@ -1,0 +1,21 @@
+{
+"r" : "#mu",
+"pu" : "Pile up interactions",
+"hdampST_tch" : "Variation of hdamp POWHEG parameter (Single top t-channel)",
+"hdampTT" : "Variation of hdamp POWHEG parameter (t#bar{t})",
+"psq2ST_tch" : "Parton showering scale (Single top t-channel)",
+"psq2TT" : "Parton showering scale (t#bar{t})",
+"q2ST_tch" : "Hard scattering scale (Single top t-channel)",
+"q2TT" : "Hard scattering scale (t#bar{t})",
+"q2VV" : "Hard scattering scale (dibosons events)",
+"q2DYJets" : "Hard scattering scale (Z+jets events)",
+"q2WJets" : "Hard scattering scale (W+jets events)",
+"btag" : "b-tagging uncertainty",
+"mistag" : "b-tagging misidentification uncertainty",
+"lepMu" : "Muon trigger and reconstruction",
+"lepE" : "Electron trigger and reconstruction",
+"pdf_total" : "PDFs choice uncertainty",
+"lumi" : "Integrated luminosity uncertainty (2.7%)",
+"jes" : "Jet energy scale",
+"jer" : "Jet energy resolution"
+}

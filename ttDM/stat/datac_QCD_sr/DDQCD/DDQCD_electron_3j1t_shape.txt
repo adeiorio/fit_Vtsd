@@ -1,0 +1,40 @@
+>>> datacard for DDQCD electron_3j1t, shape
+
+imax 1 number of channels (electron_3j1t)
+jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, ST_tch_sd)
+kmax 15 number of nuisance parameters (lumi, jes, q2ST_tch, q2WJets, q2TT, q2ST_tch_sd, psq2TT, psq2ST_tch, hdampTT, hdampST_tch, btag, pdf_total, mistag, lepE, pu)
+---------------------
+shapes	*	*	../ws/workspace.root	w:$PROCESS_$CHANNEL	w:$PROCESS_$CHANNEL_$SYSTEMATIC
+shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
+---------------------
+bin	electron_3j1t
+observation	47158
+---------------------
+bin	electron_3j1t	electron_3j1t	electron_3j1t	electron_3j1t	electron_3j1t	electron_3j1t	electron_3j1t	electron_3j1t	electron_3j1t
+process	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	ST_tch_sd
+process	0	1	2	3	4	5	6	7	8
+rate	1	3.331e+04	259.6	6413	2398	1842	3974	142.9	6.841
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+btag	lnN	1.002	1.011	1.008	1.007	1.015	1.018	1.032	1.02	1.017
+pdf_total	lnN	1	1.032	1	1.035	1	1.028	1.045	1.041	1.01
+mistag	lnN	1.001	1	1	1	1.001	1.023	1.022	1.018	1
+lepE	lnN	1	1.008	1.008	1.008	1.009	1.008	1.009	1.009	1.008
+pu	lnN	1.001	1.001	1.014	1.001	1.001	1.041	1.037	1.003	1.008
+jes	shape	1	1	1	1	1	1	1	1	1
+q2ST_tch	shape	1	1	1	1	1	1	1	1	1
+q2WJets	shape	1	1	1	1	1	1	1	1	1
+q2TT	shape	1	1	1	1	1	1	1	1	1
+q2ST_tch_sd	shape	1	1	1	1	1	1	1	1	1
+psq2TT	shape	1	1	1	1	1	1	1	1	1
+psq2ST_tch	shape	1	1	1	1	1	1	1	1	1
+hdampTT	shape	1	1	1	1	1	1	1	1	1
+hdampST_tch	shape	1	1	1	1	1	1	1	1	1
+electron	rateParam	electron_3j1t	TT	1
+electron	rateParam	electron_3j1t	ST_tW	1
+electron	rateParam	electron_3j1t	ST_sch	1
+electron	rateParam	electron_3j1t	ST_tch	1
+electron	rateParam	electron_3j1t	DYJets	1
+electron	rateParam	electron_3j1t	WJets	1
+electron	rateParam	electron_3j1t	VV	1
+electron	rateParam	electron_3j1t	ST_tch_sd	1

@@ -1,0 +1,4 @@
+<bin name="ttDM_test" file="main.cpp, testConfig.cc, testDatacard.cc, testHistoSet.cc, testHistoSetSyst.cc, testHistoCollection.cc, testDataMCHistoCollection.cc, testSkipSystematic.cc, testWorkspace.cc, testWorkspaceCategory.cc, testWorkspaceTransferFactors.cc, testWorkspaceSystFiller.cc, testWorkspaceSystSigFiller.cc, testWorkspaceSystBkgFiller.cc, testWorkspaceTFFiller.cc, testWorkspaceDataFiller.cc">
+  <use name="ttDM/stat"/>
+</bin>
+

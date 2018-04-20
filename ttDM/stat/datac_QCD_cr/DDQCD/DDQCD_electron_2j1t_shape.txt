@@ -1,0 +1,28 @@
+>>> datacard for DDQCD electron_2j1t, shape
+
+imax 1 number of channels (electron_2j1t)
+jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, ST_tch_sd)
+kmax 3 number of nuisance parameters (lumi, lepE, pu)
+---------------------
+shapes	*	*	../ws/workspace.root	w:$PROCESS_$CHANNEL	w:$PROCESS_$CHANNEL_$SYSTEMATIC
+shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
+---------------------
+bin	electron_2j1t
+observation	248521
+---------------------
+bin	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t	electron_2j1t
+process	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	ST_tch_sd
+process	0	1	2	3	4	5	6	7	8
+rate	1.774e+04	1.443e+05	3568	1.992e+04	1.701e+04	1.228e+04	3.262e+04	998.1	8.797
+---------------------
+lumi	lnN	1.057	1.057	1.057	1.057	1.057	1.057	1.057	1.057	1.057
+lepE	lnN	1.325	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025
+pu	lnN	1.325	1.025	1.025	1.025	1.025	1.024	1.024	1.025	1.025
+electron	rateParam	electron_2j1t	TT	1
+electron	rateParam	electron_2j1t	ST_tW	1
+electron	rateParam	electron_2j1t	ST_sch	1
+electron	rateParam	electron_2j1t	ST_tch	1
+electron	rateParam	electron_2j1t	DYJets	1
+electron	rateParam	electron_2j1t	WJets	1
+electron	rateParam	electron_2j1t	VV	1
+electron	rateParam	electron_2j1t	ST_tch_sd	1

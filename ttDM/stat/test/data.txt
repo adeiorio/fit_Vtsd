@@ -1,0 +1,32 @@
+# This is a comment line
+
+HistoDirectory histos
+Categories semileptonic fullhadronic
+CategoryFiles semileptonic fullhadronic
+
+LumiUncertainty 0.048
+VariableNames metFinal metFinal
+RooRealVar met
+BinCut 5 6
+
+BackgroundSample TT ttbar
+BackgroundSample SingleTop single top
+BackgroundSample DY Drell-Yan
+BackgroundSample ZToNuNu Z -> nu nu
+BackgroundSample WJets W + jets
+BackgroundSample QCD QCD
+SignalSample DMtt_sc_Mchi1Mphi10	t+DM, mchi = 1 GeV, mphi = 10 GeV
+SignalSample DMtt_sc_Mchi10Mphi10 	t+DM, mchi = 10 GeV, mphi = 10 GeV
+
+Systematics btag jes 
+Systematics mistag pu
+
+#Fullhadronic CR
+ControlRegion fullhadronic SR_1lep_mt TT
+ControlRegion fullhadronic outtop QCD
+ControlRegion fullhadronic CR6 VJets
+ControlRegion fullhadronic CR5 WJets
+
+#Semileptonic CR
+ControlRegion semileptonic 2lep TT
+ControlRegion semileptonic met_0btag WJets

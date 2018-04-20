@@ -1,0 +1,254 @@
+>>> datacard for ST_tch_sd electron_3j1t_forward, shape
+
+imax 1 number of channels (electron_2j1t_central, electron_2j1t_forward, electron_3j1t_central, electron_3j1t_forward, electron_3j2t)
+jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 230 number of nuisance parameters (lumi, jes, pdf_total, q2ST_tch, q2WJets, q2TT, psq2TT, psq2ST_tch, hdampST_tch, hdampTT, q2ST_tch_sd, mcstat_electron_2j1t_central_ST_tW_bin1, mcstat_electron_2j1t_central_TT_bin1, mcstat_electron_2j1t_central_WJets_bin1, mcstat_electron_2j1t_central_TT_bin2, mcstat_electron_2j1t_central_WJets_bin2, mcstat_electron_2j1t_central_DYJets_bin2, mcstat_electron_2j1t_central_WJets_bin3, mcstat_electron_2j1t_central_TT_bin4, mcstat_electron_2j1t_central_WJets_bin4, mcstat_electron_2j1t_central_WJets_bin5, mcstat_electron_2j1t_central_DYJets_bin5, mcstat_electron_2j1t_central_WJets_bin6, mcstat_electron_2j1t_central_WJets_bin7, mcstat_electron_2j1t_central_DDQCD_bin8, mcstat_electron_2j1t_central_WJets_bin8, mcstat_electron_2j1t_central_DYJets_bin8, mcstat_electron_2j1t_central_WJets_bin9, mcstat_electron_2j1t_central_DYJets_bin9, mcstat_electron_2j1t_central_ST_tch_bin10, mcstat_electron_2j1t_central_WJets_bin10, mcstat_electron_2j1t_central_DYJets_bin10, mcstat_electron_2j1t_central_ST_tch_bin11, mcstat_electron_2j1t_central_DDQCD_bin11, mcstat_electron_2j1t_central_ST_tW_bin11, mcstat_electron_2j1t_central_TT_bin11, mcstat_electron_2j1t_central_WJets_bin11, mcstat_electron_2j1t_central_DYJets_bin11, mcstat_electron_2j1t_central_ST_tch_bin12, mcstat_electron_2j1t_central_WJets_bin12, mcstat_electron_2j1t_central_DYJets_bin12, mcstat_electron_2j1t_central_ST_tch_bin13, mcstat_electron_2j1t_central_DDQCD_bin13, mcstat_electron_2j1t_central_ST_sch_bin13, mcstat_electron_2j1t_central_ST_tW_bin13, mcstat_electron_2j1t_central_TT_bin13, mcstat_electron_2j1t_central_ST_tch_bin13, mcstat_electron_2j1t_central_WJets_bin13, mcstat_electron_2j1t_central_DYJets_bin13, mcstat_electron_2j1t_forward_DDQCD_bin1, mcstat_electron_2j1t_forward_ST_tW_bin1, mcstat_electron_2j1t_forward_TT_bin1, mcstat_electron_2j1t_forward_WJets_bin1, mcstat_electron_2j1t_forward_DYJets_bin1, mcstat_electron_2j1t_forward_DDQCD_bin2, mcstat_electron_2j1t_forward_ST_tW_bin2, mcstat_electron_2j1t_forward_TT_bin2, mcstat_electron_2j1t_forward_WJets_bin2, mcstat_electron_2j1t_forward_DYJets_bin2, mcstat_electron_2j1t_forward_ST_tch_bin3, mcstat_electron_2j1t_forward_DDQCD_bin3, mcstat_electron_2j1t_forward_ST_sch_bin3, mcstat_electron_2j1t_forward_ST_tW_bin3, mcstat_electron_2j1t_forward_TT_bin3, mcstat_electron_2j1t_forward_ST_tch_bin3, mcstat_electron_2j1t_forward_WJets_bin3, mcstat_electron_2j1t_forward_DYJets_bin3, mcstat_electron_2j1t_forward_ST_tch_bin4, mcstat_electron_2j1t_forward_TT_bin4, mcstat_electron_2j1t_forward_WJets_bin4, mcstat_electron_2j1t_forward_DYJets_bin4, mcstat_electron_2j1t_forward_WJets_bin5, mcstat_electron_2j1t_forward_DYJets_bin5, mcstat_electron_2j1t_forward_ST_tW_bin6, mcstat_electron_2j1t_forward_TT_bin6, mcstat_electron_2j1t_forward_WJets_bin6, mcstat_electron_2j1t_forward_DYJets_bin6, mcstat_electron_2j1t_forward_ST_tch_bin7, mcstat_electron_2j1t_forward_WJets_bin7, mcstat_electron_2j1t_forward_DYJets_bin7, mcstat_electron_2j1t_forward_ST_tch_bin8, mcstat_electron_2j1t_forward_TT_bin8, mcstat_electron_2j1t_forward_WJets_bin8, mcstat_electron_2j1t_forward_DYJets_bin8, mcstat_electron_2j1t_forward_DDQCD_bin9, mcstat_electron_2j1t_forward_ST_sch_bin9, mcstat_electron_2j1t_forward_ST_tW_bin9, mcstat_electron_2j1t_forward_TT_bin9, mcstat_electron_2j1t_forward_ST_tch_bin9, mcstat_electron_2j1t_forward_WJets_bin9, mcstat_electron_2j1t_forward_ST_tch_bin10, mcstat_electron_2j1t_forward_ST_tW_bin10, mcstat_electron_2j1t_forward_ST_tch_bin10, mcstat_electron_2j1t_forward_WJets_bin10, mcstat_electron_2j1t_forward_DYJets_bin10, mcstat_electron_3j1t_central_ST_tW_bin1, mcstat_electron_3j1t_central_TT_bin1, mcstat_electron_3j1t_central_ST_tW_bin2, mcstat_electron_3j1t_central_TT_bin2, mcstat_electron_3j1t_central_WJets_bin2, mcstat_electron_3j1t_central_DYJets_bin2, mcstat_electron_3j1t_central_TT_bin3, mcstat_electron_3j1t_central_WJets_bin3, mcstat_electron_3j1t_central_TT_bin4, mcstat_electron_3j1t_central_DYJets_bin4, mcstat_electron_3j1t_central_ST_tW_bin5, mcstat_electron_3j1t_central_TT_bin5, mcstat_electron_3j1t_central_WJets_bin5, mcstat_electron_3j1t_central_DYJets_bin5, mcstat_electron_3j1t_central_VV_bin8, mcstat_electron_3j1t_central_ST_tW_bin8, mcstat_electron_3j1t_central_TT_bin8, mcstat_electron_3j1t_central_WJets_bin8, mcstat_electron_3j1t_central_DYJets_bin8, mcstat_electron_3j1t_central_WJets_bin9, mcstat_electron_3j1t_central_DYJets_bin9, mcstat_electron_3j1t_central_ST_tW_bin11, mcstat_electron_3j1t_central_TT_bin11, mcstat_electron_3j1t_central_ST_tch_bin11, mcstat_electron_3j1t_central_WJets_bin11, mcstat_electron_3j1t_central_DYJets_bin11, mcstat_electron_3j1t_central_ST_tch_bin12, mcstat_electron_3j1t_central_ST_tW_bin12, mcstat_electron_3j1t_central_TT_bin12, mcstat_electron_3j1t_central_WJets_bin12, mcstat_electron_3j1t_central_DYJets_bin12, mcstat_electron_3j1t_central_ST_tch_bin13, mcstat_electron_3j1t_central_ST_sch_bin13, mcstat_electron_3j1t_central_ST_tW_bin13, mcstat_electron_3j1t_central_TT_bin13, mcstat_electron_3j1t_central_ST_tch_bin13, mcstat_electron_3j1t_central_WJets_bin13, mcstat_electron_3j1t_central_DYJets_bin13, mcstat_electron_3j1t_forward_ST_tW_bin1, mcstat_electron_3j1t_forward_TT_bin1, mcstat_electron_3j1t_forward_WJets_bin1, mcstat_electron_3j1t_forward_DYJets_bin1, mcstat_electron_3j1t_forward_ST_tW_bin2, mcstat_electron_3j1t_forward_TT_bin2, mcstat_electron_3j1t_forward_WJets_bin2, mcstat_electron_3j1t_forward_DYJets_bin2, mcstat_electron_3j1t_forward_ST_tch_bin3, mcstat_electron_3j1t_forward_TT_bin3, mcstat_electron_3j1t_forward_ST_tch_bin3, mcstat_electron_3j1t_forward_WJets_bin3, mcstat_electron_3j1t_forward_DYJets_bin3, mcstat_electron_3j1t_forward_TT_bin4, mcstat_electron_3j1t_forward_WJets_bin4, mcstat_electron_3j1t_forward_DYJets_bin4, mcstat_electron_3j1t_forward_WJets_bin5, mcstat_electron_3j1t_forward_DYJets_bin5, mcstat_electron_3j1t_forward_ST_tW_bin6, mcstat_electron_3j1t_forward_TT_bin6, mcstat_electron_3j1t_forward_WJets_bin6, mcstat_electron_3j1t_forward_DYJets_bin6, mcstat_electron_3j1t_forward_ST_tch_bin7, mcstat_electron_3j1t_forward_TT_bin7, mcstat_electron_3j1t_forward_WJets_bin7, mcstat_electron_3j1t_forward_DYJets_bin7, mcstat_electron_3j1t_forward_TT_bin8, mcstat_electron_3j1t_forward_WJets_bin8, mcstat_electron_3j1t_forward_DYJets_bin8, mcstat_electron_3j1t_forward_ST_tW_bin9, mcstat_electron_3j1t_forward_TT_bin9, mcstat_electron_3j1t_forward_WJets_bin9, mcstat_electron_3j1t_forward_ST_tch_bin10, mcstat_electron_3j1t_forward_ST_tW_bin10, mcstat_electron_3j1t_forward_TT_bin10, mcstat_electron_3j1t_forward_ST_tch_bin10, mcstat_electron_3j1t_forward_WJets_bin10, mcstat_electron_3j1t_forward_DYJets_bin10, mcstat_electron_3j2t_TT_bin1, mcstat_electron_3j2t_ST_tW_bin2, mcstat_electron_3j2t_TT_bin2, mcstat_electron_3j2t_ST_tW_bin3, mcstat_electron_3j2t_TT_bin3, mcstat_electron_3j2t_ST_tW_bin4, mcstat_electron_3j2t_TT_bin4, mcstat_electron_3j2t_ST_tW_bin5, mcstat_electron_3j2t_TT_bin5, mcstat_electron_3j2t_ST_tW_bin6, mcstat_electron_3j2t_TT_bin6, mcstat_electron_3j2t_WJets_bin6, mcstat_electron_3j2t_ST_tW_bin7, mcstat_electron_3j2t_TT_bin7, mcstat_electron_3j2t_WJets_bin7, mcstat_electron_3j2t_DYJets_bin7, mcstat_electron_3j2t_TT_bin8, mcstat_electron_3j2t_TT_bin9, mcstat_electron_3j2t_TT_bin10, mcstat_electron_3j2t_TT_bin11, mcstat_electron_3j2t_TT_bin12, mcstat_electron_3j2t_WJets_bin12, mcstat_electron_3j2t_DYJets_bin12, mcstat_electron_3j2t_TT_bin13, mcstat_electron_3j2t_WJets_bin13, mcstat_electron_3j2t_DYJets_bin13, mcstat_electron_3j2t_TT_bin14, mcstat_electron_3j2t_WJets_bin14, mcstat_electron_3j2t_DYJets_bin14, mcstat_electron_3j2t_TT_bin15, mcstat_electron_3j2t_WJets_bin15, mcstat_electron_3j2t_DYJets_bin15, mcstat_electron_3j2t_ST_tch_bin16, mcstat_electron_3j2t_TT_bin16, mcstat_electron_3j2t_WJets_bin16, mcstat_electron_3j2t_DYJets_bin16, mcstat_electron_3j2t_ST_tch_bin17, mcstat_electron_3j2t_TT_bin17, mcstat_electron_3j2t_ST_tch_bin17, mcstat_electron_3j2t_WJets_bin17, mcstat_electron_3j2t_DYJets_bin17, mcstat_electron_3j2t_ST_tch_bin18, mcstat_electron_3j2t_TT_bin18, mcstat_electron_3j2t_ST_tch_bin18, mcstat_electron_3j2t_WJets_bin18, mcstat_electron_3j2t_DYJets_bin18, mcstat_electron_3j2t_ST_tch_bin19, mcstat_electron_3j2t_ST_sch_bin19, mcstat_electron_3j2t_TT_bin19, mcstat_electron_3j2t_ST_tch_bin19, mcstat_electron_3j2t_WJets_bin19, mcstat_electron_3j2t_ST_tch_bin20, mcstat_electron_3j2t_ST_sch_bin20, mcstat_electron_3j2t_TT_bin20, mcstat_electron_3j2t_ST_tch_bin20, btag, mistag, lepE, pu)
+---------------------
+shapes	*	*	../ws/workspace.root	w:$PROCESS_$CHANNEL	w:$PROCESS_$CHANNEL_$SYSTEMATIC
+shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
+---------------------
+bin	electron_3j1t_forward
+observation	31979
+---------------------
+bin	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward	electron_3j1t_forward
+process	ST_tch_sd	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7	8
+rate	79.13	2.245e+04	160.8	4320	1587	1004	2537	91.04	1
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+btag	lnN	1.003	1.011	1.008	1.007	1.014	1.022	1.032	1.021	1.003
+mistag	lnN	1.2	1	1	1	1	1.025	1.02	1.014	1.002
+lepE	lnN	1.001	1.008	1.008	1.008	1.009	1.009	1.009	1.009	1
+pu	lnN	1.002	1.001	1.013	1.001	1.003	1.082	1.042	1.004	1.001
+jes	shape	1	1	1	1	1	1	1	1	1
+pdf_total	shape	1	1	1	1	1	1	1	1	1
+q2ST_tch	shape	1	1	1	1	1	1	1	1	1
+q2WJets	shape	1	1	1	1	1	1	1	1	1
+q2TT	shape	1	1	1	1	1	1	1	1	1
+psq2TT	shape	1	1	1	1	1	1	1	1	1
+psq2ST_tch	shape	1	1	1	1	1	1	1	1	1
+hdampST_tch	shape	1	1	1	1	1	1	1	1	1
+hdampTT	shape	1	1	1	1	1	1	1	1	1
+q2ST_tch_sd	shape	1	1	1	1	1	1	1	1	1
+mcstat_electron_2j1t_central_ST_tW_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_TT_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_TT_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DYJets_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_TT_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DYJets_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin6	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin7	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DDQCD_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DYJets_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DYJets_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_ST_tch_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DYJets_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_ST_tch_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DDQCD_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_ST_tW_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_TT_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DYJets_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_ST_tch_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DYJets_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_ST_tch_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DDQCD_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_ST_sch_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_ST_tW_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_TT_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_ST_tch_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_WJets_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_central_DYJets_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DDQCD_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tW_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_TT_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DDQCD_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tW_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_TT_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tch_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DDQCD_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_sch_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tW_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_TT_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tch_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tch_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_TT_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tW_bin6	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_TT_bin6	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin6	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin6	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tch_bin7	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin7	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin7	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tch_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_TT_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DDQCD_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_sch_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tW_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_TT_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tch_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tch_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tW_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_ST_tch_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_WJets_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_2j1t_forward_DYJets_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tW_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tW_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_WJets_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_DYJets_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_WJets_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_DYJets_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tW_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_WJets_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_DYJets_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_VV_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tW_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_WJets_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_DYJets_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_WJets_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_DYJets_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tW_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tch_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_WJets_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_DYJets_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tch_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tW_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_WJets_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_DYJets_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tch_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_sch_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tW_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_TT_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_ST_tch_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_WJets_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_central_DYJets_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_ST_tW_bin1	shape	-	-	-	-	1	-	-	-	-
+mcstat_electron_3j1t_forward_TT_bin1	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin1	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin1	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j1t_forward_ST_tW_bin2	shape	-	-	-	-	1	-	-	-	-
+mcstat_electron_3j1t_forward_TT_bin2	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin2	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin2	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j1t_forward_ST_tch_bin3	shape	-	-	-	1	-	-	-	-	-
+mcstat_electron_3j1t_forward_TT_bin3	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_ST_tch_bin3	shape	-	-	-	1	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin3	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin3	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j1t_forward_TT_bin4	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin4	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin4	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin5	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin5	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j1t_forward_ST_tW_bin6	shape	-	-	-	-	1	-	-	-	-
+mcstat_electron_3j1t_forward_TT_bin6	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin6	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin6	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j1t_forward_ST_tch_bin7	shape	-	-	-	1	-	-	-	-	-
+mcstat_electron_3j1t_forward_TT_bin7	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin7	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin7	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j1t_forward_TT_bin8	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin8	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin8	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j1t_forward_ST_tW_bin9	shape	-	-	-	-	1	-	-	-	-
+mcstat_electron_3j1t_forward_TT_bin9	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin9	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_ST_tch_bin10	shape	-	-	-	1	-	-	-	-	-
+mcstat_electron_3j1t_forward_ST_tW_bin10	shape	-	-	-	-	1	-	-	-	-
+mcstat_electron_3j1t_forward_TT_bin10	shape	-	1	-	-	-	-	-	-	-
+mcstat_electron_3j1t_forward_ST_tch_bin10	shape	-	-	-	1	-	-	-	-	-
+mcstat_electron_3j1t_forward_WJets_bin10	shape	-	-	-	-	-	-	1	-	-
+mcstat_electron_3j1t_forward_DYJets_bin10	shape	-	-	-	-	-	1	-	-	-
+mcstat_electron_3j2t_TT_bin1	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tW_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin2	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tW_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin3	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tW_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin4	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tW_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin5	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tW_bin6	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin6	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin6	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tW_bin7	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin7	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin7	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_DYJets_bin7	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin8	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin9	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin10	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin11	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_DYJets_bin12	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_DYJets_bin13	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin14	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin14	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_DYJets_bin14	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin15	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin15	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_DYJets_bin15	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin16	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin16	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin16	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_DYJets_bin16	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin17	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin17	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin17	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin17	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_DYJets_bin17	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin18	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin18	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin18	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin18	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_DYJets_bin18	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin19	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_sch_bin19	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin19	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin19	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_WJets_bin19	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin20	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_sch_bin20	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_TT_bin20	shape	-	-	-	-	-	-	-	-	-
+mcstat_electron_3j2t_ST_tch_bin20	shape	-	-	-	-	-	-	-	-	-
+QCD_electron_2j1t	rateParam	electron_2j1t_central	DDQCD	1
+QCD_electron_2j1t	rateParam	electron_2j1t_forward	DDQCD	1
+ST_electron	rateParam	electron_2j1t_central	ST_tch	1
+ST_electron	rateParam	electron_2j1t_forward	ST_tch	1
+ST_electron	rateParam	electron_3j1t_central	ST_tch	1
+ST_electron	rateParam	electron_3j1t_forward	ST_tch	1
+ST_electron	rateParam	electron_3j2t	ST_tch	1

@@ -1,0 +1,13 @@
+<bin name="analyzeHistos" file="common.cc, datacards.cc, getHisto.cc, parseArgs.cc, analyzeHistos.cpp">
+  <use   name="HiggsAnalysis/CombinedLimit"/>
+  <use   name="root"/>
+  <use   name="boost_program_options"/>
+  <use   name="roofit"/>
+</bin>
+<bin name="analyzeSamples" file="analyzeSamples.cpp">
+  <use   name="HiggsAnalysis/CombinedLimit"/>
+  <use   name="ttDM/stat"/>
+</bin>
+<bin name="dumpWorkspace" file="dumpWorkspace.cpp">
+  <use   name="HiggsAnalysis/CombinedLimit"/>
+</bin>

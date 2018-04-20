@@ -1,0 +1,36 @@
+>>> datacard for TT, shape
+
+imax 5 number of channels (muon_2j1t_central, muon_2j1t_forward, muon_3j1t_central, muon_3j1t_forward, muon_3j2t)
+jmax 7 number of backgrounds (ST_tch, ST_sch, ST_tW, DYJets, WJets, VV, DDQCD)
+kmax 17 number of nuisance parameters (lumi, jes, pdf_total, q2TT, q2ST_tch, q2VV, q2DYJets, jer, psq2TT, hdampTT, hdampST_tch, psq2ST_tch, q2WJets, mistag, lepMu, pu, btag)
+---------------------
+shapes	*	*	../ws/workspace.root	w:$PROCESS_$CHANNEL	w:$PROCESS_$CHANNEL_$SYSTEMATIC
+shapes	data_obs	*	../ws/workspace.root	w:data_obs_$CHANNEL
+---------------------
+bin	muon_2j1t_central	muon_2j1t_forward	muon_3j1t_central	muon_3j1t_forward	muon_3j2t
+observation	286732	48497	221895	58604	87767
+---------------------
+bin	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_central	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_2j1t_forward	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_central	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j1t_forward	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t	muon_3j2t
+process	TT	ST_tch	ST_sch	ST_tW	DYJets	WJets	VV	DDQCD	TT	ST_tch	ST_sch	ST_tW	DYJets	WJets	VV	DDQCD	TT	ST_tch	ST_sch	ST_tW	DYJets	WJets	VV	DDQCD	TT	ST_tch	ST_sch	ST_tW	DYJets	WJets	VV	DDQCD	TT	ST_tch	ST_sch	ST_tW	DYJets	WJets	VV	DDQCD
+process	0	1	2	3	4	5	6	7	0	1	2	3	4	5	6	7	0	1	2	3	4	5	6	7	0	1	2	3	4	5	6	7	0	1	2	3	4	5	6	7
+rate	1.62e+05	2.452e+04	4833	1.834e+04	8026	4.793e+04	1188	1.494e+04	1.498e+04	1.786e+04	695.7	1432	1572	8394	153.3	3653	1.856e+05	6665	1320	1.152e+04	2065	1.434e+04	651.9	1.14	4.112e+04	8117	427.8	2734	1127	6040	169.7	1	7.906e+04	5268	791.8	2141	683.1	2083	126.3	1
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
+mistag	lnN	1	1	1	1	1.02	1.021	1.015	1.001	1	1	1	1.001	1.02	1.036	1.021	1.001	1	1	1	1	1.024	1.024	1.016	1.001	1	1	1	1	1.035	1.023	1.016	1	1.002	1.001	1.001	1.004	1.019	1.016	1.009	1.004
+lepMu	lnN	1.014	1.016	1.016	1.014	1.016	1.016	1.015	1	1.014	1.016	1.015	1.014	1.018	1.015	1.016	1	1.014	1.015	1.016	1.015	1.016	1.015	1.016	1	1.014	1.015	1.015	1.015	1.015	1.013	1.016	1	1.015	1.015	1.017	1.015	1.01	1.017	1.016	1
+pu	lnN	1.004	1.006	1.003	1.005	1.007	1.001	1.004	1	1.001	1.004	1.003	1.007	1.023	1.028	1.002	1.001	1.003	1.003	1.001	1.007	1.014	1.011	1.007	1.007	1.002	1.002	1.014	1.008	1.049	1.014	1.008	1	1.007	1.006	1.011	1.005	1.049	1.012	1.003	1.011
+btag	lnN	1.01	1.013	1.004	1.015	1.018	1.026	1.025	1.002	1.016	1.016	1.016	1.017	1.018	1.031	1.027	1.002	1.005	1.005	1.003	1.012	1.017	1.024	1.024	1.004	1.011	1.008	1.01	1.015	1.017	1.026	1.026	1.004	1.033	1.033	1.034	1.037	1.033	1.039	1.039	1.052
+jes	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+pdf_total	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2TT	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2ST_tch	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2VV	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2DYJets	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jer	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+psq2TT	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+hdampTT	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+hdampST_tch	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+psq2ST_tch	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+q2WJets	shape	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+QCD_muon_2j1t_cr	rateParam	muon_2j1t_central	DDQCD	1
+QCD_muon_2j1t_sr	rateParam	muon_2j1t_forward	DDQCD	1

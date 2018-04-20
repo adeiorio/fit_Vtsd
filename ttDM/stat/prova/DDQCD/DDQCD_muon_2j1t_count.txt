@@ -1,0 +1,15 @@
+>>> datacard for DDQCD muon_2j1t, count
+
+imax 1 number of channels (muon_2j1t)
+jmax 8 number of backgrounds (TT, ST_sch, ST_tch, ST_tW, DYJets, WJets, VV, ST_tch_sd)
+kmax 1 number of nuisance parameters (lumi)
+---------------------
+bin	muon_2j1t
+observation	191443
+---------------------
+bin	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t	muon_2j1t
+process	DDQCD	TT	ST_sch	ST_tch	ST_tW	DYJets	WJets	VV	ST_tch_sd
+process	0	1	2	3	4	5	6	7	8
+rate	1.005e+04	1.081e+05	2710	2.325e+04	1.267e+04	7375	2.643e+04	722.2	12.37
+---------------------
+lumi	lnN	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027	1.027
